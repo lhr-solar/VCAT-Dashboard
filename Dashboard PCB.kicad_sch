@@ -2977,16 +2977,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 68.58) (xy 241.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206178c9-4073-4f09-a0f5-49c2f988672f")
-	)
-	(wire
-		(pts
 			(xy 102.87 128.27) (xy 102.87 129.54)
 		)
 		(stroke
@@ -3387,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 73.66) (xy 241.3 74.93)
+			(xy 241.3 72.39) (xy 241.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +4087,7 @@
 		)
 		(uuid "4165edc9-3888-43d2-aa46-a2a8cde62cef")
 	)
-	(label "Supp-"
+	(label "Led"
 		(at 209.55 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4141,17 +4131,6 @@
 		)
 		(uuid "49530c23-cc2c-4e79-8a12-a96ed5b08947")
 	)
-	(label "LV_EN"
-		(at 241.3 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ccd247b-43c0-4333-98a3-e482c7a3727e")
-	)
 	(label "REV_SW"
 		(at 54.61 97.79 0)
 		(fields_autoplaced yes)
@@ -4174,17 +4153,6 @@
 		)
 		(uuid "503ea7f1-c21e-425b-9f04-22e796ed9065")
 	)
-	(label "Supp+"
-		(at 241.3 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59ea4b9b-91a7-4fba-bbf9-963a7c05dfaf")
-	)
 	(label "FWD_SW"
 		(at 107.95 85.09 0)
 		(fields_autoplaced yes)
@@ -4195,6 +4163,17 @@
 			(justify left bottom)
 		)
 		(uuid "5c8d97bb-d771-484c-a7a9-ff18c66b1969")
+	)
+	(label "Led"
+		(at 241.3 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67d5ba8b-8a32-4617-ad91-542eab52a602")
 	)
 	(label "FAN-"
 		(at 158.75 95.25 180)
@@ -4316,6 +4295,17 @@
 			(justify left bottom)
 		)
 		(uuid "9c33c87d-b9ac-438c-820d-0533e6f373db")
+	)
+	(label "Supp-"
+		(at 241.3 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d94e7b2-dd6f-4321-afaf-4197b0f884e7")
 	)
 	(label "IGN_MTR"
 		(at 54.61 90.17 0)
@@ -6404,7 +6394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "601c8c7c-7e60-4c04-8d76-5b8283de4312")
-		(property "Reference" "QD"
+		(property "Reference" "QD1"
 			(at 170.18 41.9099 0)
 			(effects
 				(font
@@ -6488,7 +6478,7 @@
 		(instances
 			(project ""
 				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
-					(reference "QD")
+					(reference "QD1")
 					(unit 1)
 				)
 			)
@@ -8926,21 +8916,21 @@
 		(fields_autoplaced yes)
 		(uuid "f4232dc6-f6b7-4c0d-8f8f-b65f8047d074")
 		(property "Reference" "R15"
-			(at 222.25 74.9301 0)
+			(at 227.33 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 222.25 72.3901 0)
+		(property "Value" "5.1k"
+			(at 227.33 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -9134,91 +9124,6 @@
 			(project "Dashboard PCB"
 				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
 					(reference "Heartbeat_LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 241.3 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feecbd4e-dc83-4eb6-af41-84f254e6c289")
-		(property "Reference" "R14"
-			(at 244.856 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 244.602 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW0805100RFKEAHP"
-			(at 241.3 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b6ddbef-0925-4ef3-a28c-734b41b0df83")
-		)
-		(pin "2"
-			(uuid "f7504d1f-302e-413a-9c26-d02ba5c67979")
-		)
-		(instances
-			(project "Dashboard PCB"
-				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
-					(reference "R14")
 					(unit 1)
 				)
 			)
