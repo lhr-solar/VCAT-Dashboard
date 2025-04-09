@@ -110,6 +110,7 @@
 	(net 28 "/CANGND")
 	(net 29 "/Supp-")
 	(net 30 "/Supp+")
+	(net 31 "/LV_EN")
 	(net 32 "Net-(J6-Pin_2)")
 	(net 33 "/Led")
 	(net 34 "Net-(QD1-G)")
