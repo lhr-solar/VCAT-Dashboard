@@ -18555,8 +18555,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Supp+ LV_EN"
-		(at 223.75 149.75 0)
+	(gr_text "Supp- LV_EN"
+		(at 222.9 149.9 0)
 		(layer "B.SilkS")
 		(uuid "c6f2bcd8-74a7-440d-be55-ddb05e7651e9")
 		(effects
