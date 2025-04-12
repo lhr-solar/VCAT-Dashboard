@@ -978,6 +978,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -2300,7 +2433,7 @@
 		(at 95.25 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b4fab99-7fa0-4e2f-a016-1f45d7bee20a")
+		(uuid "7e6fe977-cae5-45be-9383-0a72860cc8b7")
 	)
 	(junction
 		(at 172.72 132.08)
@@ -2427,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "40cd2b6e-8b2b-4999-9b51-05f42f875927")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.93) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4100e32d-8c6b-4124-a981-723c2e565093")
 	)
 	(wire
 		(pts
@@ -2610,6 +2753,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 74.93) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837cd97f-9e2c-48cc-ae05-ac69a30758b8")
+	)
+	(wire
+		(pts
 			(xy 229.87 148.59) (xy 229.87 147.32)
 		)
 		(stroke
@@ -2720,6 +2873,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 74.93) (xy 82.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc72154-130a-4a2f-b734-a1be2e25f63d")
+	)
+	(wire
+		(pts
 			(xy 224.79 80.01) (xy 224.79 77.47)
 		)
 		(stroke
@@ -2747,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "b5a770ba-83a3-4f6d-b7ed-f241b7a02be8")
+	)
+	(wire
+		(pts
+			(xy 92.71 74.93) (xy 95.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9809147-9661-43f2-8a05-d68d47ccc13b")
 	)
 	(wire
 		(pts
@@ -2990,16 +3163,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 78.74) (xy 95.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7228ee7-92bd-409d-8042-b5325dee2c03")
-	)
-	(wire
-		(pts
 			(xy 209.55 76.2) (xy 212.09 76.2)
 		)
 		(stroke
@@ -3131,6 +3294,16 @@
 			)
 		)
 		(uuid "5676867a-ecff-4d22-99a3-6b191bcf71b0")
+	)
+	(text "Not impl yet"
+		(exclude_from_sim no)
+		(at 98.552 70.866 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "59a1868e-5eba-40b7-9c6d-350bd2da1d0e")
 	)
 	(text "Note: All logic is 12V"
 		(exclude_from_sim no)
@@ -7183,7 +7356,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 95.25 77.47 0)
+		(at 82.55 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7192,7 +7365,7 @@
 		(dnp no)
 		(uuid "be873c12-0aa9-4a48-af24-a540974409af")
 		(property "Reference" "#PWR028"
-			(at 95.25 81.28 0)
+			(at 82.55 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7374,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 94.869 73.0758 0)
+			(at 82.169 66.7258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 77.47 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +7391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 77.47 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 95.25 77.47 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,6 +7582,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 88.9 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caab2b94-e0ac-4e0e-8529-1bca628e8581")
+		(property "Reference" "F1"
+			(at 88.9 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 88.9 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eaed0ce-d352-4f29-a0e1-917d13c0ff6c")
+		)
+		(pin "2"
+			(uuid "fc28174a-9759-49e6-8648-211ceb3c534d")
+		)
+		(instances
+			(project ""
+				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 95.25 0)
 		(unit 1)
@@ -7484,7 +7725,7 @@
 		(dnp no)
 		(uuid "d1530272-5bd4-45e9-a8f5-0227b327578d")
 		(property "Reference" "J1"
-			(at 102.108 66.802 0)
+			(at 101.346 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7733,7 @@
 			)
 		)
 		(property "Value" "Controls_Leader_Export_02x06"
-			(at 102.108 69.342 0)
+			(at 101.346 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
