@@ -3021,6 +3021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a2f8b15-472b-406a-b5d9-0446ddfbe740")
 		)
@@ -3106,6 +3115,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -3267,6 +3285,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfd6ee92-8db5-494c-945d-e0d499d92a5f")
 		)
@@ -3420,6 +3447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f3fd010-c557-4a59-8384-219eebeb3418")
 		)
@@ -3497,6 +3533,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 44.45 121.92 0)
 			(effects
 				(font
@@ -3584,6 +3629,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -3830,6 +3884,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bac95521-be5c-4ff8-abf2-6e0abe0bcc60")
 		)
@@ -3983,6 +4046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 40.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "324d9f3d-3265-4690-bc55-927c1c56d89c")
 		)
@@ -4062,6 +4134,15 @@
 			)
 		)
 		(property "P/N" "43650-0300"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 58.42 46.99 0)
 			(effects
 				(font
@@ -4226,6 +4307,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3447555b-e202-4957-b7c4-cd4d60402969")
 		)
@@ -4333,6 +4423,15 @@
 			)
 		)
 		(property "P/N" "A10305RNZQ"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 213.36 48.26 0)
 			(effects
 				(font
@@ -4567,6 +4666,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4714944b-6ca5-4285-b847-5194ec8b27bc")
 		)
@@ -4644,6 +4752,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -4731,6 +4848,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 77.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 77.47 121.92 0)
 			(effects
 				(font
@@ -4893,6 +5019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d4039bc-d92b-4fcd-96b2-9c08c3bff16e")
 		)
@@ -4972,6 +5107,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -5086,6 +5230,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "285a2f57-1128-4e03-8346-2033d61c257c")
 		)
@@ -5163,6 +5316,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 231.14 60.96 0)
 			(effects
 				(font
@@ -5256,6 +5418,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2d6fb6e-d869-44b7-b94c-6b567024ee46")
 		)
@@ -5333,6 +5504,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 68.58 63.5 0)
 			(effects
 				(font
@@ -5559,6 +5739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c90c3ddc-d74b-4b00-8822-a1fbd8a0616c")
 		)
@@ -5636,6 +5825,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 109.22 57.15 0)
 			(effects
 				(font
@@ -5853,6 +6051,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 232.41 43.18 0)
 			(effects
 				(font
@@ -6145,6 +6352,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de440db0-7586-46e8-9237-5559aef87aae")
 		)
@@ -6232,6 +6448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f587f11-095e-4b83-bf92-20a5f1f5c127")
 		)
@@ -6311,6 +6536,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 52.07 63.5 0)
 			(effects
 				(font

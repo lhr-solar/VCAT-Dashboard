@@ -4484,6 +4484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 158.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dashboard PCB"
 				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
@@ -4549,6 +4558,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 212.09 121.92 0)
 			(effects
 				(font
@@ -4642,6 +4660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62f496cc-3a68-4044-ae69-d3874e2eb676")
 		)
@@ -4721,6 +4748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2e85516-8d14-4bbe-8b55-ca85afff361c")
 		)
@@ -4780,6 +4816,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -5072,6 +5126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1974ecbe-30e8-4150-867a-560b0fa318dc")
 		)
@@ -5152,6 +5215,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 40.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -5248,6 +5320,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88c4a34f-5f98-4960-bf19-7358931a556e")
 		)
@@ -5319,6 +5400,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 195.58 147.32 0)
 			(effects
 				(font
@@ -5467,6 +5557,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 88.9 125.73 0)
 			(effects
 				(font
@@ -5629,6 +5728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2486300-e0c9-4786-95be-f6c6d620458c")
 		)
@@ -5699,6 +5807,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 158.75 191.77 0)
 			(effects
 				(font
@@ -5911,6 +6028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 158.75 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dashboard PCB"
 				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
@@ -5991,6 +6117,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59c781c9-078a-449f-a007-136f67d0723a")
 		)
@@ -6061,6 +6196,24 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "BZT52-B12-QX"
+			(at 105.41 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d59a6554-6992-409d-8729-92c5e65d2ca5")
 		)
@@ -6121,6 +6274,33 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 152.4 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "30k res"
+			(at 152.4 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -6209,6 +6389,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 88.9 133.35 0)
 			(effects
 				(font
@@ -6380,6 +6569,24 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TO200P800X182-5N"
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1b81288-8f63-41ef-a556-6836e8dbd8ba")
 		)
@@ -6460,6 +6667,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 134.62 125.73 0)
 			(effects
 				(font
@@ -6621,6 +6837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39cd48eb-bf45-4483-91b1-52b403754b34")
 		)
@@ -6709,6 +6934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 171.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3661468a-489d-4ef5-9a71-7f22da987341")
 		)
@@ -6780,6 +7014,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 229.87 147.32 0)
 			(effects
 				(font
@@ -6865,6 +7108,15 @@
 			)
 		)
 		(property "P/N" "43650-0300"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 223.52 87.63 0)
 			(effects
 				(font
@@ -7009,6 +7261,24 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "Reverse polarity PMOS"
+			(at 96.52 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "85027c6d-8c7c-482e-93d3-8678baaa9930")
 		)
@@ -7083,6 +7353,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 212.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 212.09 147.32 0)
 			(effects
 				(font
@@ -7166,6 +7445,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 158.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dashboard PCB"
 				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
@@ -7230,6 +7518,15 @@
 		)
 		(property "P/N" "MF-PSHT020KX-2"
 			(at 113.03 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 113.03 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,6 +7679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e5f178-f424-4a12-b32b-8d6944b293ab")
 		)
@@ -7516,6 +7822,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -7732,6 +8047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4920f887-6429-4ee5-bc15-635d0107455f")
 		)
@@ -7874,6 +8198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/db66d699-14af-49af-adc9-07d31d38aebd"
@@ -7945,6 +8278,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 116.84 125.73 0)
 			(effects
 				(font
@@ -8108,6 +8450,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e79a4cc-68c0-41f8-8a98-548bc92d79b1")
 		)
@@ -8187,6 +8538,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -8340,6 +8700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c12eb888-02a1-42e2-aebc-a6fdd943e6e2")
 		)
@@ -8414,6 +8783,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 40.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 40.64 128.27 0)
 			(effects
 				(font
@@ -8573,6 +8951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6810c7bb-6bfc-47c4-a48b-30196a196a4a")
 		)
@@ -8682,6 +9069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce259765-968a-40f5-a127-19744aebc9db")
 		)
@@ -8750,6 +9146,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 246.38 121.92 0)
 			(effects
 				(font
@@ -8834,6 +9239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16bda63c-f0d9-4738-8b16-bd8400f6cb91")
 		)
@@ -8890,6 +9304,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "100k res"
+			(at 90.17 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -8977,6 +9409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 195.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc41e6e5-9f5d-4476-b84b-d01107e064b7")
 		)
@@ -9044,6 +9485,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 229.87 121.92 0)
 			(effects
 				(font
@@ -9128,6 +9578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9750424d-ad67-4fd5-82b9-fdbf3b5bc8fb")
 		)
@@ -9187,6 +9646,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 224.79 73.66 0)
 			(effects
 				(font
@@ -9341,6 +9809,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 64.77 133.35 0)
 			(effects
 				(font
