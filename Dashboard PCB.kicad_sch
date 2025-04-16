@@ -6569,7 +6569,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "TO200P800X182-5N"
+		(property "P/N" "SQJQ142E-T1_GE3"
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -7261,7 +7261,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "Reverse polarity PMOS"
+		(property "P/N" "PMV35EPER"
 			(at 96.52 41.91 90)
 			(effects
 				(font
@@ -7272,6 +7272,15 @@
 		)
 		(property "Link" ""
 			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 96.52 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9312,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "100k res"
+		(property "P/N" "At pikel"
 			(at 90.17 49.53 90)
 			(effects
 				(font
