@@ -699,6 +699,18 @@
 		)
 		(uuid 4457a15e-4b6f-404a-8ab9-d147e75ef069)
 	)
+	(text "NMOS 24v -> 3.3v Signal Converter"
+		(exclude_from_sim no)
+		(at 141.478 70.104 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "91e1839d-d808-4407-8626-46a0a702e2bb")
+	)
 	(junction
 		(at 143.51 102.87)
 		(diameter 0)

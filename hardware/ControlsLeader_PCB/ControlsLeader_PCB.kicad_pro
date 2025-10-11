@@ -729,6 +729,10 @@
     [
       "96f92563-8500-4fc1-8dfa-8f9065dbbbd5",
       "NMOS Switch2"
+    ],
+    [
+      "873a2c74-1849-486c-a963-2f08f1d8c000",
+      "Swe_LEDs"
     ]
   ],
   "text_variables": {}

@@ -370,9 +370,57 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 45.72 43.18)
+		(end 142.24 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ed54fd9-5a54-4c05-a7b1-5bd9be3e70d5)
+	)
+	(rectangle
+		(start 147.32 43.18)
+		(end 241.3 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 83dab902-9c63-4ccc-95e7-87587f0b297a)
+	)
+	(text "Cruise, Regen, and Hazard Switches"
+		(exclude_from_sim no)
+		(at 173.99 39.624 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6d6a4ea5-e2e1-4329-b4ca-748053c78c73")
+	)
+	(text "Ignition & Gear Switches"
+		(exclude_from_sim no)
+		(at 64.008 39.37 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "93bfd0e8-24ef-499b-a8e6-bd748ab512c0")
+	)
 	(wire
 		(pts
-			(xy 179.07 105.41) (xy 180.34 105.41)
+			(xy 184.15 90.17) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -382,7 +430,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 73.66) (xy 208.28 73.66)
+			(xy 212.09 58.42) (xy 213.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -422,7 +470,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 180.34 73.66)
+			(xy 170.18 58.42) (xy 185.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +500,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 109.22) (xy 180.34 109.22)
+			(xy 170.18 93.98) (xy 185.42 93.98)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +510,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 109.22) (xy 208.28 109.22)
+			(xy 212.09 93.98) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +520,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 69.85) (xy 180.34 69.85)
+			(xy 184.15 54.61) (xy 185.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +530,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 90.17) (xy 208.28 90.17)
+			(xy 212.09 74.93) (xy 213.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +660,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 180.34 90.17)
+			(xy 170.18 74.93) (xy 185.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 123.19) (xy 180.34 123.19)
+			(xy 184.15 107.95) (xy 185.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 86.36) (xy 180.34 86.36)
+			(xy 184.15 71.12) (xy 185.42 71.12)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +720,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 127) (xy 180.34 127)
+			(xy 170.18 111.76) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 127) (xy 208.28 127)
+			(xy 212.09 111.76) (xy 213.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +833,7 @@
 	)
 	(hierarchical_label "Hazard_GPIO_IN"
 		(shape output)
-		(at 208.28 127 0)
+		(at 213.36 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -796,7 +844,7 @@
 	)
 	(hierarchical_label "24V_PWR"
 		(shape input)
-		(at 154.94 109.22 180)
+		(at 160.02 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -818,7 +866,7 @@
 	)
 	(hierarchical_label "3.3V_PWR"
 		(shape input)
-		(at 179.07 123.19 180)
+		(at 184.15 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -840,7 +888,7 @@
 	)
 	(hierarchical_label "3.3V_PWR"
 		(shape input)
-		(at 179.07 69.85 180)
+		(at 184.15 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -851,7 +899,7 @@
 	)
 	(hierarchical_label "Cruise_Enable_GPIO_IN"
 		(shape output)
-		(at 208.28 73.66 0)
+		(at 213.36 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -862,7 +910,7 @@
 	)
 	(hierarchical_label "3.3V_PWR"
 		(shape input)
-		(at 179.07 105.41 180)
+		(at 184.15 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -873,7 +921,7 @@
 	)
 	(hierarchical_label "24V_PWR"
 		(shape input)
-		(at 153.67 73.66 180)
+		(at 158.75 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +998,7 @@
 	)
 	(hierarchical_label "24V_PWR"
 		(shape input)
-		(at 154.94 90.17 180)
+		(at 160.02 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -972,7 +1020,7 @@
 	)
 	(hierarchical_label "24V_PWR"
 		(shape input)
-		(at 154.94 127 180)
+		(at 160.02 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -983,7 +1031,7 @@
 	)
 	(hierarchical_label "Regen_Enable_GPIO_IN"
 		(shape output)
-		(at 208.28 109.22 0)
+		(at 213.36 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,7 +1064,7 @@
 	)
 	(hierarchical_label "Cruise_Set_GPIO_IN"
 		(shape output)
-		(at 208.28 90.17 0)
+		(at 213.36 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +1075,7 @@
 	)
 	(hierarchical_label "3.3V_PWR"
 		(shape input)
-		(at 179.07 86.36 180)
+		(at 184.15 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +1086,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 73.66 0)
+		(at 165.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1047,7 +1095,7 @@
 		(fields_autoplaced yes)
 		(uuid "60a00334-d5b9-41ce-8bbb-2e24161e0ca3")
 		(property "Reference" "Cruise_Enable1"
-			(at 160.02 66.04 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1103,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 160.02 68.58 0)
+			(at 165.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1111,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 160.02 68.58 0)
+			(at 165.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 68.58 0)
+			(at 165.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1129,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 73.66 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1228,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 109.22 0)
+		(at 165.1 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1189,7 +1237,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e2b0889-b5c2-4da7-b666-2b8a7c538f3d")
 		(property "Reference" "Regen_Enable1"
-			(at 160.02 101.6 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1245,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 160.02 104.14 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1253,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 160.02 104.14 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 104.14 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1271,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 109.22 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1296,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 127 0)
+		(at 165.1 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1257,7 +1305,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8051199-2d37-450a-80af-2a78ccb35173")
 		(property "Reference" "Hazard1"
-			(at 160.02 119.38 0)
+			(at 165.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1313,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 160.02 121.92 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1321,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 160.02 121.92 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 121.92 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1339,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 127 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1364,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 90.17 0)
+		(at 165.1 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1324,7 +1372,7 @@
 		(dnp no)
 		(uuid "fa83e62c-b3f3-4752-b196-515b1e2455f8")
 		(property "Reference" "Cruise_Set1"
-			(at 160.02 77.47 0)
+			(at 165.1 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1380,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 160.02 85.09 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1388,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 160.02 85.09 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 85.09 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1406,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 90.17 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1504,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 121.285)
+		(at 185.42 106.045)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1472,7 +1520,7 @@
 		)
 		(uuid "0bc6c4a4-c14a-41c3-b355-3976da7ebf21")
 		(property "Sheetname" "NMOS Switch9"
-			(at 180.34 120.5734 0)
+			(at 185.42 105.3334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1529,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 180.34 131.3946 0)
+			(at 185.42 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1538,7 @@
 			)
 		)
 		(pin "24V_Signal" input
-			(at 180.34 127 180)
+			(at 185.42 111.76 180)
 			(uuid "1ebdc821-850c-476d-a724-7513f5fc4481")
 			(effects
 				(font
@@ -1500,7 +1548,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 207.01 127 0)
+			(at 212.09 111.76 0)
 			(uuid "9d70e9b7-29f1-4b54-a74f-cf62483d6a6f")
 			(effects
 				(font
@@ -1510,7 +1558,7 @@
 			)
 		)
 		(pin "3.3V_IN" input
-			(at 180.34 123.19 180)
+			(at 185.42 107.95 180)
 			(uuid "c58bad74-6374-46ca-8c78-5e139368ea63")
 			(effects
 				(font
@@ -1528,7 +1576,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 84.455)
+		(at 185.42 69.215)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1544,7 +1592,7 @@
 		)
 		(uuid "7026b5b1-d827-476f-8603-5a659732e5b9")
 		(property "Sheetname" "NMOS Switch7"
-			(at 180.34 83.7434 0)
+			(at 185.42 68.5034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1601,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 180.34 94.5646 0)
+			(at 185.42 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1610,7 @@
 			)
 		)
 		(pin "24V_Signal" input
-			(at 180.34 90.17 180)
+			(at 185.42 74.93 180)
 			(uuid "e35c13e6-1d68-4857-af99-710e07879a97")
 			(effects
 				(font
@@ -1572,7 +1620,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 207.01 90.17 0)
+			(at 212.09 74.93 0)
 			(uuid "4c776a77-74d8-48b8-aaf3-4e267b1b24e6")
 			(effects
 				(font
@@ -1582,7 +1630,7 @@
 			)
 		)
 		(pin "3.3V_IN" input
-			(at 180.34 86.36 180)
+			(at 185.42 71.12 180)
 			(uuid "ab849d14-b530-4512-bda3-119f412ca174")
 			(effects
 				(font
@@ -1744,7 +1792,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 67.945)
+		(at 185.42 52.705)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1760,7 +1808,7 @@
 		)
 		(uuid "80bf9eea-ed4f-4827-add0-0a246d82be05")
 		(property "Sheetname" "NMOS Switch6"
-			(at 180.34 67.2334 0)
+			(at 185.42 51.9934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1817,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 180.34 78.0546 0)
+			(at 185.42 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1826,7 @@
 			)
 		)
 		(pin "24V_Signal" input
-			(at 180.34 73.66 180)
+			(at 185.42 58.42 180)
 			(uuid "89b03736-fc51-40a6-87b4-13f5b3e26e0f")
 			(effects
 				(font
@@ -1788,7 +1836,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 207.01 73.66 0)
+			(at 212.09 58.42 0)
 			(uuid "208e8f17-0ac5-4c43-ace0-113dde399156")
 			(effects
 				(font
@@ -1798,7 +1846,7 @@
 			)
 		)
 		(pin "3.3V_IN" input
-			(at 180.34 69.85 180)
+			(at 185.42 54.61 180)
 			(uuid "8e29c763-39d9-4965-8ac9-f05d2246c2d6")
 			(effects
 				(font
@@ -2032,7 +2080,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 103.505)
+		(at 185.42 88.265)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2048,7 +2096,7 @@
 		)
 		(uuid "d662ad68-a369-4569-831a-160b0426a517")
 		(property "Sheetname" "NMOS Switch8"
-			(at 180.34 102.7934 0)
+			(at 185.42 87.5534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2105,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 180.34 113.6146 0)
+			(at 185.42 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2114,7 @@
 			)
 		)
 		(pin "24V_Signal" input
-			(at 180.34 109.22 180)
+			(at 185.42 93.98 180)
 			(uuid "dc7c61cb-cd80-4941-a0f5-558c98e41f84")
 			(effects
 				(font
@@ -2076,7 +2124,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 207.01 109.22 0)
+			(at 212.09 93.98 0)
 			(uuid "8f568a0e-adaa-43fd-90cf-52d581020515")
 			(effects
 				(font
@@ -2086,7 +2134,7 @@
 			)
 		)
 		(pin "3.3V_IN" input
-			(at 180.34 105.41 180)
+			(at 185.42 90.17 180)
 			(uuid "30104032-42fa-4681-a410-30d71c92646f")
 			(effects
 				(font
