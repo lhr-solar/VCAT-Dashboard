@@ -560,12 +560,60 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N",
+          "name": "P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -625,6 +673,62 @@
     [
       "596c86f4-41b5-4d6a-bb61-b1f944f438e7",
       "Status_LEDs"
+    ],
+    [
+      "b17bad26-1d2e-4521-b2ad-37a0683696f4",
+      "NMOS Switch"
+    ],
+    [
+      "77a34744-6fbb-49b8-909e-8fcf15713845",
+      "NMOS Switch"
+    ],
+    [
+      "aba78b24-396d-48e5-ba4a-fe7ae881754d",
+      "NMOS Switch1"
+    ],
+    [
+      "722baf9b-8a8a-47d2-80fb-72654359f231",
+      "NMOS Switch2"
+    ],
+    [
+      "91e390a3-696d-4362-be30-7cf9c5e25c34",
+      "NMOS Switch3"
+    ],
+    [
+      "b7b7c7cf-dbfe-469a-bac3-9e4591f64ca5",
+      "NMOS Switch4"
+    ],
+    [
+      "e02780c8-75c8-45f3-8e23-434358068804",
+      "NMOS Switch5"
+    ],
+    [
+      "80bf9eea-ed4f-4827-add0-0a246d82be05",
+      "NMOS Switch6"
+    ],
+    [
+      "7026b5b1-d827-476f-8603-5a659732e5b9",
+      "NMOS Switch7"
+    ],
+    [
+      "d662ad68-a369-4569-831a-160b0426a517",
+      "NMOS Switch8"
+    ],
+    [
+      "0bc6c4a4-c14a-41c3-b355-3976da7ebf21",
+      "NMOS Switch9"
+    ],
+    [
+      "16f366d7-a589-47b9-a168-22f38fa9d880",
+      "NMOS Switch"
+    ],
+    [
+      "a74ca15c-d28c-4892-901e-d2a942a17d44",
+      "NMOS Switch1"
+    ],
+    [
+      "96f92563-8500-4fc1-8dfa-8f9065dbbbd5",
+      "NMOS Switch2"
     ]
   ],
   "text_variables": {}
