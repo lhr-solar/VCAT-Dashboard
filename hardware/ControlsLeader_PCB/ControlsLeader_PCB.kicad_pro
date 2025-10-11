@@ -621,6 +621,10 @@
     [
       "cf34858a-7a31-4837-b51d-ee9ae3dd074c",
       "Steering_Wheel"
+    ],
+    [
+      "596c86f4-41b5-4d6a-bb61-b1f944f438e7",
+      "Status_LEDs"
     ]
   ],
   "text_variables": {}
