@@ -226,7 +226,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|838200|927100|71f198d7-43e8-4e32-9ab1-bd7bf85c3254|4a65db2c-7287-458c-9ae1-6c60e8658469|/298dad81-302c-41c7-874b-fcde1c3cde17|/298dad81-302c-41c7-874b-fcde1c3cde17|/298dad81-302c-41c7-874b-fcde1c3cde17",
+        ""
+      ],
+      [
+        "pin_to_pin|838200|952500|4a65db2c-7287-458c-9ae1-6c60e8658469|38ef77c7-d084-4ef4-a583-01d5c30e0a6e|/298dad81-302c-41c7-874b-fcde1c3cde17|/298dad81-302c-41c7-874b-fcde1c3cde17|/298dad81-302c-41c7-874b-fcde1c3cde17",
+        ""
+      ],
+      [
+        "pin_to_pin|838200|977900|38ef77c7-d084-4ef4-a583-01d5c30e0a6e|86d3f366-319d-4659-b1e4-ad9d61762d23|/298dad81-302c-41c7-874b-fcde1c3cde17|/298dad81-302c-41c7-874b-fcde1c3cde17|/298dad81-302c-41c7-874b-fcde1c3cde17",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -535,19 +548,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -559,7 +572,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -608,6 +621,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Prt #",
+          "name": "Manufacturer Prt #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor Link",
+          "name": "Distributor Link",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -615,7 +646,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -676,63 +707,67 @@
     ],
     [
       "b17bad26-1d2e-4521-b2ad-37a0683696f4",
-      "NMOS Switch"
+      "NMOS Level Shifter"
     ],
     [
       "77a34744-6fbb-49b8-909e-8fcf15713845",
       "NMOS Switch"
     ],
     [
-      "aba78b24-396d-48e5-ba4a-fe7ae881754d",
+      "cdc5ad43-02dd-4ee6-86a6-815b5be4fe19",
       "NMOS Switch1"
     ],
     [
-      "722baf9b-8a8a-47d2-80fb-72654359f231",
+      "b22cf861-cce0-40f5-af4d-1da4c31e5ea4",
       "NMOS Switch2"
     ],
     [
-      "91e390a3-696d-4362-be30-7cf9c5e25c34",
+      "85141009-cf23-4e15-a00d-fd39334ceaca",
       "NMOS Switch3"
     ],
     [
-      "b7b7c7cf-dbfe-469a-bac3-9e4591f64ca5",
+      "bdc400a7-f171-4dad-be53-5336f07e6d56",
       "NMOS Switch4"
     ],
     [
-      "e02780c8-75c8-45f3-8e23-434358068804",
+      "443790eb-ee47-4dc5-bc74-5a6a17a23ec1",
       "NMOS Switch5"
     ],
     [
-      "80bf9eea-ed4f-4827-add0-0a246d82be05",
+      "f4291017-39e3-45b1-8bc1-fc07428031c8",
       "NMOS Switch6"
     ],
     [
-      "7026b5b1-d827-476f-8603-5a659732e5b9",
+      "26318188-ff2d-4a71-865e-c31691d676e2",
       "NMOS Switch7"
     ],
     [
-      "d662ad68-a369-4569-831a-160b0426a517",
+      "98be5413-28b5-4000-8755-133e101601ee",
       "NMOS Switch8"
     ],
     [
-      "0bc6c4a4-c14a-41c3-b355-3976da7ebf21",
+      "ec62b0d3-cf22-4395-8f1d-99c970b8fd01",
       "NMOS Switch9"
     ],
     [
-      "16f366d7-a589-47b9-a168-22f38fa9d880",
-      "NMOS Switch"
+      "95ba0dfc-4c54-436b-9b0f-29f8aa354027",
+      "NMOS Switch3"
     ],
     [
-      "a74ca15c-d28c-4892-901e-d2a942a17d44",
+      "879fa84f-14ed-4d21-9f88-1baa6fbdbf33",
       "NMOS Switch1"
     ],
     [
-      "96f92563-8500-4fc1-8dfa-8f9065dbbbd5",
+      "ed43737a-66c9-4099-9c79-193ec40f0132",
       "NMOS Switch2"
     ],
     [
-      "873a2c74-1849-486c-a963-2f08f1d8c000",
-      "Swe_LEDs"
+      "d00337e6-4975-4ba1-a951-e690956d208d",
+      "24v_5v_Buck"
+    ],
+    [
+      "58462af7-0db4-461a-b5b0-8654be380624",
+      "5v_3.3v_LDO"
     ]
   ],
   "text_variables": {}
