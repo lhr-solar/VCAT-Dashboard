@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f115716a-f5d0-482a-bbc4-1c22c042cdce")
+	(uuid "033ae63c-517d-44c9-8965-1c74f617069b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
