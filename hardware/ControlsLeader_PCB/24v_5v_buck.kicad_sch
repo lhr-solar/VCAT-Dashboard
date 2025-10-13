@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "39cd5a18-5458-41f2-89c3-99ab7df8e0cb")
+	(uuid "499f58b0-3cb3-4a60-bf93-ffa3f54f7f2f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -7619,6 +7619,15 @@
 			)
 		)
 		(property "P/N" "TPS5405DR"
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 121.92 87.63 0)
 			(effects
 				(font

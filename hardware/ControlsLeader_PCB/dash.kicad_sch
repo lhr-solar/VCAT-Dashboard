@@ -5,6 +5,148 @@
 	(uuid "0ff4fb62-d129-4daf-b546-a951a67ec752")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -371,8 +513,8 @@
 		)
 	)
 	(rectangle
-		(start 45.72 43.18)
-		(end 142.24 154.94)
+		(start 50.8 39.37)
+		(end 147.32 155.956)
 		(stroke
 			(width 0)
 			(type default)
@@ -383,8 +525,8 @@
 		(uuid 4ed54fd9-5a54-4c05-a7b1-5bd9be3e70d5)
 	)
 	(rectangle
-		(start 147.32 43.18)
-		(end 241.3 124.46)
+		(start 152.4 39.37)
+		(end 246.38 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -394,9 +536,45 @@
 		)
 		(uuid 83dab902-9c63-4ccc-95e7-87587f0b297a)
 	)
+	(rectangle
+		(start 184.15 125.73)
+		(end 246.38 150.495)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89fc15ec-5399-4506-95c2-60c49f12d8a4)
+	)
+	(rectangle
+		(start 152.4 125.73)
+		(end 181.61 155.575)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae6dbaa9-c12f-497b-9665-abfcde7ca98a)
+	)
+	(text "E-Stop Connectors (2.5A Max)"
+		(exclude_from_sim no)
+		(at 199.136 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "129a3b03-6cc3-4e19-bb89-bbcef8e300df")
+	)
 	(text "Cruise, Regen, and Hazard Switches"
 		(exclude_from_sim no)
-		(at 173.99 39.624 0)
+		(at 179.07 35.814 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -408,7 +586,7 @@
 	)
 	(text "Ignition & Gear Switches"
 		(exclude_from_sim no)
-		(at 64.008 39.37 0)
+		(at 69.088 35.56 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -418,9 +596,31 @@
 		)
 		(uuid "93bfd0e8-24ef-499b-a8e6-bd748ab512c0")
 	)
+	(text "Supplemental Power Switch"
+		(exclude_from_sim no)
+		(at 165.354 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d6ad8e87-73a3-4e95-a322-973f960d8252")
+	)
 	(wire
 		(pts
-			(xy 184.15 90.17) (xy 185.42 90.17)
+			(xy 171.45 139.7) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0790ef32-6167-4407-9bb8-2de88b537e4c")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
@@ -430,7 +630,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 58.42) (xy 213.36 58.42)
+			(xy 218.44 54.61) (xy 219.71 54.61)
 		)
 		(stroke
 			(width 0)
@@ -440,7 +640,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 90.17 91.44)
+			(xy 82.55 86.36) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -450,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 102.87) (xy 87.63 102.87)
+			(xy 92.71 104.14) (xy 93.98 104.14)
 		)
 		(stroke
 			(width 0)
@@ -460,7 +660,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 124.46) (xy 63.5 124.46)
+			(xy 64.77 125.73) (xy 69.85 125.73)
 		)
 		(stroke
 			(width 0)
@@ -470,7 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 185.42 58.42)
+			(xy 176.53 54.61) (xy 191.77 54.61)
 		)
 		(stroke
 			(width 0)
@@ -480,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 90.17 71.12)
+			(xy 95.25 66.04) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +690,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 77.47) (xy 76.2 77.47)
+			(xy 219.71 143.51) (xy 222.25 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd6dd22-950a-43ad-9ccd-c1b39a5bed64")
+	)
+	(wire
+		(pts
+			(xy 80.01 72.39) (xy 82.55 72.39)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +710,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 185.42 93.98)
+			(xy 242.57 143.51) (xy 242.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d11ffdd-774f-4142-a50b-d49b5774be69")
+	)
+	(wire
+		(pts
+			(xy 176.53 90.17) (xy 191.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +730,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 93.98) (xy 213.36 93.98)
+			(xy 242.57 133.35) (xy 242.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f589d76-ef9a-4569-8a30-c8f37b1ef04f")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 219.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 54.61) (xy 185.42 54.61)
+			(xy 190.5 50.8) (xy 191.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +760,27 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 74.93) (xy 213.36 74.93)
+			(xy 170.18 143.51) (xy 170.18 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec2083e-1f00-495e-a0ba-8560ef2289e0")
+	)
+	(wire
+		(pts
+			(xy 168.91 139.7) (xy 171.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46901fa2-12ad-40e4-9a38-c9699c87f080")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -540,7 +790,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 90.17 57.15)
+			(xy 219.71 133.35) (xy 222.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d073e00-d9da-4de4-a890-689c8caa440f")
+	)
+	(wire
+		(pts
+			(xy 82.55 52.07) (xy 96.52 52.07)
 		)
 		(stroke
 			(width 0)
@@ -550,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 140.97) (xy 87.63 140.97)
+			(xy 80.01 142.24) (xy 93.98 142.24)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +820,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 115.57 106.68)
+			(xy 203.2 133.35) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f96ec67-d8c1-44bb-87ee-310b4ff8bd1a")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 121.92 107.95)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +840,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 127) (xy 73.66 140.97)
+			(xy 167.64 153.67) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d77c87-e60a-45e2-946c-ec18a6fbb084")
+	)
+	(wire
+		(pts
+			(xy 240.03 143.51) (xy 242.57 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678281e6-187f-4044-a897-12449900953d")
+	)
+	(wire
+		(pts
+			(xy 80.01 128.27) (xy 80.01 142.24)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +870,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 90.17 53.34)
+			(xy 222.25 133.35) (xy 222.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704a646a-c506-4ee2-830d-85f184b47f9d")
+	)
+	(wire
+		(pts
+			(xy 95.25 48.26) (xy 96.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -590,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 77.47) (xy 76.2 91.44)
+			(xy 82.55 72.39) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 106.68) (xy 73.66 121.92)
+			(xy 80.01 107.95) (xy 80.01 123.19)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 118.11 91.44)
+			(xy 123.19 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -620,7 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 74.93) (xy 90.17 74.93)
+			(xy 80.01 69.85) (xy 96.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -630,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 115.57 124.46)
+			(xy 120.65 125.73) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -640,7 +940,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 87.63 124.46)
+			(xy 170.18 153.67) (xy 170.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8827bee6-e606-42f5-9de9-551af468b185")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b85c6a4-a9f6-4ed4-9b0b-d4617fe2cc8b")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 93.98 125.73)
 		)
 		(stroke
 			(width 0)
@@ -650,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 57.15) (xy 118.11 57.15)
+			(xy 123.19 52.07) (xy 124.46 52.07)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 74.93) (xy 185.42 74.93)
+			(xy 176.53 71.12) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 140.97) (xy 115.57 140.97)
+			(xy 120.65 142.24) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 137.16) (xy 87.63 137.16)
+			(xy 92.71 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 185.42 107.95)
+			(xy 190.5 104.14) (xy 191.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 185.42 71.12)
+			(xy 190.5 67.31) (xy 191.77 67.31)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +1030,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 120.65) (xy 87.63 120.65)
+			(xy 92.71 121.92) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 185.42 111.76)
+			(xy 176.53 107.95) (xy 191.77 107.95)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +1050,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 87.63) (xy 90.17 87.63)
+			(xy 171.45 129.54) (xy 171.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e9e991-4d8e-4ddb-8eaf-614b456b4d81")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 96.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 63.5 74.93)
+			(xy 64.77 69.85) (xy 69.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -750,7 +1080,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 111.76) (xy 213.36 111.76)
+			(xy 222.25 143.51) (xy 222.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14fe800-fe7c-491a-a4cf-330f75cbbbc8")
+	)
+	(wire
+		(pts
+			(xy 218.44 107.95) (xy 219.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +1100,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 76.2 72.39)
+			(xy 240.03 133.35) (xy 242.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9656d0-2656-4e5c-b29e-67ad0f53d69c")
+	)
+	(wire
+		(pts
+			(xy 168.91 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfce9c50-99f7-4c03-9c1b-6a8fe1b9de12")
+	)
+	(wire
+		(pts
+			(xy 82.55 52.07) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +1130,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 73.66 72.39)
+			(xy 203.2 143.51) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69bedcc-5e70-4e60-91ec-85851163de41")
+	)
+	(wire
+		(pts
+			(xy 82.55 67.31) (xy 80.01 67.31)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +1150,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 106.68) (xy 87.63 106.68)
+			(xy 167.64 143.51) (xy 170.18 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf71db-388d-4c34-b4f2-304897c88e62")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 93.98 107.95)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +1170,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 118.11 74.93)
+			(xy 200.66 143.51) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f480e9f9-9864-43b2-a060-7717e0badfa0")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -798,9 +1188,109 @@
 		)
 		(uuid "f74cdb59-7331-4a7c-b7f1-0e19a627b6db")
 	)
+	(label "Contactor_OUT1"
+		(at 219.71 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "053743d6-9d7f-4f3b-937a-97dcdd29c6a2")
+	)
+	(label "Contactor_OUT2"
+		(at 219.71 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b19b37f-e980-4d96-b4fd-49b3865fb129")
+	)
+	(label "Contactor_OUT2"
+		(at 240.03 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2eeae56c-659b-46fe-97e0-b41e94dade27")
+	)
+	(label "Contactor_OUT1"
+		(at 200.66 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43310158-f874-4bbe-a3c0-848a970722c2")
+	)
+	(label "LV-"
+		(at 168.91 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5067181c-22be-4fb1-adfb-2baa78e13059")
+	)
+	(label "LV-"
+		(at 168.91 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51882660-a712-44d4-b205-af203a417a1f")
+	)
+	(label "LV_EN"
+		(at 167.64 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "665b7cf5-158a-41d6-af28-eaff73d626ef")
+	)
+	(label "Contactor_IN1"
+		(at 200.66 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be8672bc-b0f6-4ba3-a77b-4970893b2f78")
+	)
+	(label "Contactor_IN1"
+		(at 240.03 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c740ff88-2df1-4b23-a3b6-7cb75a32f455")
+	)
+	(label "LV_EN"
+		(at 168.91 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec03bb06-9998-4788-9d10-6a64d6396534")
+	)
 	(hierarchical_label "3.3V_LDO"
 		(shape input)
-		(at 58.42 124.46 180)
+		(at 64.77 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -811,7 +1301,7 @@
 	)
 	(hierarchical_label "Hazard_GPIO_IN"
 		(shape output)
-		(at 213.36 111.76 0)
+		(at 219.71 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -822,7 +1312,7 @@
 	)
 	(hierarchical_label "3.3V_LDO"
 		(shape input)
-		(at 160.02 93.98 180)
+		(at 166.37 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -833,7 +1323,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 88.9 53.34 180)
+		(at 95.25 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -844,7 +1334,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 184.15 90.17 180)
+		(at 190.5 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -855,7 +1345,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 86.36 102.87 180)
+		(at 92.71 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -866,7 +1356,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 184.15 54.61 180)
+		(at 190.5 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -877,7 +1367,7 @@
 	)
 	(hierarchical_label "Cruise_Enable_GPIO_IN"
 		(shape output)
-		(at 213.36 58.42 0)
+		(at 219.71 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -888,7 +1378,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 184.15 71.12 180)
+		(at 190.5 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -899,7 +1389,7 @@
 	)
 	(hierarchical_label "3.3V_LDO"
 		(shape input)
-		(at 160.02 74.93 180)
+		(at 166.37 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -910,7 +1400,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 88.9 87.63 180)
+		(at 95.25 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -921,7 +1411,7 @@
 	)
 	(hierarchical_label "Neuatral_Gear_GPIO"
 		(shape output)
-		(at 118.11 74.93 0)
+		(at 124.46 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -932,7 +1422,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 86.36 137.16 180)
+		(at 92.71 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -943,7 +1433,7 @@
 	)
 	(hierarchical_label "IGN_ARR"
 		(shape output)
-		(at 115.57 124.46 0)
+		(at 121.92 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -954,7 +1444,7 @@
 	)
 	(hierarchical_label "3.3V_LDO"
 		(shape input)
-		(at 58.42 74.93 180)
+		(at 64.77 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -965,7 +1455,7 @@
 	)
 	(hierarchical_label "REV_SW"
 		(shape output)
-		(at 118.11 91.44 0)
+		(at 124.46 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,7 +1466,7 @@
 	)
 	(hierarchical_label "Ign_OFF_GPIO"
 		(shape output)
-		(at 115.57 106.68 0)
+		(at 121.92 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -987,7 +1477,7 @@
 	)
 	(hierarchical_label "FWD_SW"
 		(shape output)
-		(at 118.11 57.15 0)
+		(at 124.46 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -998,7 +1488,7 @@
 	)
 	(hierarchical_label "3.3V_LDO"
 		(shape input)
-		(at 160.02 58.42 180)
+		(at 166.37 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1009,7 +1499,7 @@
 	)
 	(hierarchical_label "Regen_Enable_GPIO_IN"
 		(shape output)
-		(at 213.36 93.98 0)
+		(at 219.71 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1020,7 +1510,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 88.9 71.12 180)
+		(at 95.25 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1031,7 +1521,7 @@
 	)
 	(hierarchical_label "3.3V_LDO"
 		(shape input)
-		(at 160.02 111.76 180)
+		(at 166.37 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1042,7 +1532,7 @@
 	)
 	(hierarchical_label "IGN_MTR"
 		(shape output)
-		(at 115.57 140.97 0)
+		(at 121.92 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1053,7 +1543,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 184.15 107.95 180)
+		(at 190.5 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1064,7 +1554,7 @@
 	)
 	(hierarchical_label "Cruise_Set_GPIO_IN"
 		(shape output)
-		(at 213.36 74.93 0)
+		(at 219.71 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1075,7 +1565,7 @@
 	)
 	(hierarchical_label "3.3V_LSOM"
 		(shape input)
-		(at 86.36 120.65 180)
+		(at 92.71 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1085,33 +1575,34 @@
 		(uuid "fbc536e3-a831-4588-9612-44ce356d1868")
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 165.1 58.42 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 217.17 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60a00334-d5b9-41ce-8bbb-2e24161e0ca3")
-		(property "Reference" "Cruise_Enable1"
-			(at 165.1 50.8 0)
+		(uuid "50f918d4-cdb0-4c58-8cab-a296cf8e9741")
+		(property "Reference" "J12"
+			(at 214.63 139.7001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 165.1 53.34 0)
+		(property "Value" "EStop2"
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 165.1 53.34 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 217.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1611,102 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 53.34 0)
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f055934a-3f31-4e32-8058-4eae0a514697")
+		)
+		(pin "1"
+			(uuid "03578ed8-2e0f-4253-acfa-b61aab530430")
+		)
+		(instances
+			(project "ControlsLeader_PCB"
+				(path "/298dad81-302c-41c7-874b-fcde1c3cde17/e45574a8-3844-493c-9a14-b17489080e69"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 171.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a00334-d5b9-41ce-8bbb-2e24161e0ca3")
+		(property "Reference" "Cruise_Enable1"
+			(at 171.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1715,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 58.42 0)
+			(at 171.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,8 +1723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
-			(at 165.1 58.42 0)
+		(property "Distributor Link" "https://www.amazon.com/Gebildet-Waterproof-Momentary-Lockless-Doorbell/dp/B07YDGXMPN/ref=sr_1_20?crid=3CL4V919UK2ZP&dib=eyJ2IjoiMSJ9.YOSVN3Iv8U2slHzp2f1_7I63BiDtfL4TCXtQKaWa6Pf52MwYU_fBN7ze1lnRRvBUU4h5qgghFkZYsdxDPX07nc5adiC4HWCRnnmp-q7S4wOeZPOfkm1k-0Ld0FHu3eFFfxzu6r1wpBF_R6196IlqOF-ISg4KIYVhEnlisPo5mwRrIKnfaOvwoHC1AzHiI_f0D5QHkIQXB4isO9gAaazoFIsOkXnQhDBjYYMPyCRL3m_CziYz-kLB8Zbe414ceUBZIeN04r5rXz-PFeZTRROaW7FA4UsGHNelgT_ORhiMBzQ._eG7wCXgBG8zwqFBxLGDOM8j5CKuOPvPRQmKom2FakY&dib_tag=se&keywords=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24V&qid=1759610579&s=industrial&sprefix=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24%2Cindustrial%2C189&sr=1-20&th=1"
+			(at 171.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,8 +1732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 165.1 58.42 0)
+		(property "Manufacturer" "Amazon"
+			(at 171.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1742,7 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
-			(at 165.1 58.42 0)
+			(at 171.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,33 +1766,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SP3T")
-		(at 68.58 124.46 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 198.12 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6be08c43-cf59-40a1-8add-cccb3c30b28b")
-		(property "Reference" "Ignition1"
-			(at 68.58 115.57 0)
+		(uuid "624c3a23-75cc-4c27-99c4-2abc07a95c9a")
+		(property "Reference" "J11"
+			(at 193.548 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SP3T"
-			(at 68.58 118.11 0)
+		(property "Value" "EStop1"
+			(at 193.294 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "nanofits_1x04:CONN_SD-105313-100_04_MOL"
-			(at 52.705 120.015 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 198.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1800,102 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 132.08 0)
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18e2e5fe-6744-41f2-af2a-a356ae8c4b32")
+		)
+		(pin "1"
+			(uuid "6ac5781e-3885-4152-9951-43560eb2a5d5")
+		)
+		(instances
+			(project "ControlsLeader_PCB"
+				(path "/298dad81-302c-41c7-874b-fcde1c3cde17/e45574a8-3844-493c-9a14-b17489080e69"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SP3T")
+		(at 74.93 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be08c43-cf59-40a1-8add-cccb3c30b28b")
+		(property "Reference" "Ignition1"
+			(at 74.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SP3T"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nanofits_1x04:CONN_SD-105313-100_04_MOL"
+			(at 59.055 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1904,7 @@
 			)
 		)
 		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-			(at 68.58 124.46 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,8 +1912,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
-			(at 68.58 124.46 0)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/c-k/A12505RNZQ/2043161"
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,8 +1921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 68.58 124.46 0)
+		(property "Manufacturer" "DigiKey"
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1931,7 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
-			(at 68.58 124.46 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1962,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 165.1 93.98 0)
+		(at 171.45 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1291,7 +1971,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e2b0889-b5c2-4da7-b666-2b8a7c538f3d")
 		(property "Reference" "Regen_Enable1"
-			(at 165.1 86.36 0)
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1979,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 165.1 88.9 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1987,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 165.1 88.9 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 88.9 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +2005,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 93.98 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,8 +2013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
-			(at 165.1 93.98 0)
+		(property "Distributor Link" "https://www.amazon.com/Gebildet-Waterproof-Momentary-Lockless-Doorbell/dp/B07YDGXMPN/ref=sr_1_20?crid=3CL4V919UK2ZP&dib=eyJ2IjoiMSJ9.YOSVN3Iv8U2slHzp2f1_7I63BiDtfL4TCXtQKaWa6Pf52MwYU_fBN7ze1lnRRvBUU4h5qgghFkZYsdxDPX07nc5adiC4HWCRnnmp-q7S4wOeZPOfkm1k-0Ld0FHu3eFFfxzu6r1wpBF_R6196IlqOF-ISg4KIYVhEnlisPo5mwRrIKnfaOvwoHC1AzHiI_f0D5QHkIQXB4isO9gAaazoFIsOkXnQhDBjYYMPyCRL3m_CziYz-kLB8Zbe414ceUBZIeN04r5rXz-PFeZTRROaW7FA4UsGHNelgT_ORhiMBzQ._eG7wCXgBG8zwqFBxLGDOM8j5CKuOPvPRQmKom2FakY&dib_tag=se&keywords=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24V&qid=1759610579&s=industrial&sprefix=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24%2Cindustrial%2C189&sr=1-20&th=1"
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,8 +2022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 165.1 93.98 0)
+		(property "Manufacturer" "Amazon"
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +2032,7 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
-			(at 165.1 93.98 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,33 +2056,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 165.1 111.76 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 166.37 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8051199-2d37-450a-80af-2a78ccb35173")
-		(property "Reference" "Hazard1"
-			(at 165.1 104.14 0)
+		(uuid "abe8ca3d-dbc7-4e6e-a11e-069ed7f7a84e")
+		(property "Reference" "J9"
+			(at 163.83 135.8901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 165.1 106.68 0)
+		(property "Value" "Supp_In"
+			(at 163.83 133.3501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 165.1 106.68 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 166.37 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +2093,293 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 106.68 0)
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e79a4cc-68c0-41f8-8a98-548bc92d79b1")
+		)
+		(pin "1"
+			(uuid "d47a327b-af4d-486f-bf87-89ff1e02ac1a")
+		)
+		(instances
+			(project "ControlsLeader_PCB"
+				(path "/298dad81-302c-41c7-874b-fcde1c3cde17/e45574a8-3844-493c-9a14-b17489080e69"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 165.1 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5275fc1-15d7-40f4-ba8c-e81cc189f418")
+		(property "Reference" "J13"
+			(at 162.56 149.8601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Supp_In"
+			(at 162.56 147.3201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5ada2fa-b702-477c-81f6-306b2f0d2a8b")
+		)
+		(pin "1"
+			(uuid "61c8154b-4e88-4f1f-9e92-284621503e52")
+		)
+		(instances
+			(project "ControlsLeader_PCB"
+				(path "/298dad81-302c-41c7-874b-fcde1c3cde17/e45574a8-3844-493c-9a14-b17489080e69"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 237.49 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8fa27a8-f47a-4605-884c-8e7ff147b452")
+		(property "Reference" "J14"
+			(at 232.664 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EStop3"
+			(at 232.41 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f99e57e8-66c9-499b-ba58-e4afc6fbd9e6")
+		)
+		(pin "1"
+			(uuid "0053cdc5-3365-403b-bb47-062f40af183e")
+		)
+		(instances
+			(project "ControlsLeader_PCB"
+				(path "/298dad81-302c-41c7-874b-fcde1c3cde17/e45574a8-3844-493c-9a14-b17489080e69"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 171.45 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8051199-2d37-450a-80af-2a78ccb35173")
+		(property "Reference" "Hazard1"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +2388,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 111.76 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,8 +2396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
-			(at 165.1 111.76 0)
+		(property "Distributor Link" "https://www.amazon.com/Gebildet-Waterproof-Momentary-Lockless-Doorbell/dp/B07YDGXMPN/ref=sr_1_20?crid=3CL4V919UK2ZP&dib=eyJ2IjoiMSJ9.YOSVN3Iv8U2slHzp2f1_7I63BiDtfL4TCXtQKaWa6Pf52MwYU_fBN7ze1lnRRvBUU4h5qgghFkZYsdxDPX07nc5adiC4HWCRnnmp-q7S4wOeZPOfkm1k-0Ld0FHu3eFFfxzu6r1wpBF_R6196IlqOF-ISg4KIYVhEnlisPo5mwRrIKnfaOvwoHC1AzHiI_f0D5QHkIQXB4isO9gAaazoFIsOkXnQhDBjYYMPyCRL3m_CziYz-kLB8Zbe414ceUBZIeN04r5rXz-PFeZTRROaW7FA4UsGHNelgT_ORhiMBzQ._eG7wCXgBG8zwqFBxLGDOM8j5CKuOPvPRQmKom2FakY&dib_tag=se&keywords=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24V&qid=1759610579&s=industrial&sprefix=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24%2Cindustrial%2C189&sr=1-20&th=1"
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,8 +2405,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 165.1 111.76 0)
+		(property "Manufacturer" "Amazon"
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +2415,7 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
-			(at 165.1 111.76 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +2440,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 165.1 74.93 0)
+		(at 171.45 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1480,7 +2448,7 @@
 		(dnp no)
 		(uuid "fa83e62c-b3f3-4752-b196-515b1e2455f8")
 		(property "Reference" "Cruise_Set1"
-			(at 165.1 67.056 0)
+			(at 171.45 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +2456,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 165.1 69.85 0)
+			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +2464,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
-			(at 165.1 69.85 0)
+			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +2473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 69.85 0)
+			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +2482,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 74.93 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,8 +2490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
-			(at 165.1 74.93 0)
+		(property "Distributor Link" "https://www.amazon.com/Gebildet-Waterproof-Momentary-Lockless-Doorbell/dp/B07YDGXMPN/ref=sr_1_20?crid=3CL4V919UK2ZP&dib=eyJ2IjoiMSJ9.YOSVN3Iv8U2slHzp2f1_7I63BiDtfL4TCXtQKaWa6Pf52MwYU_fBN7ze1lnRRvBUU4h5qgghFkZYsdxDPX07nc5adiC4HWCRnnmp-q7S4wOeZPOfkm1k-0Ld0FHu3eFFfxzu6r1wpBF_R6196IlqOF-ISg4KIYVhEnlisPo5mwRrIKnfaOvwoHC1AzHiI_f0D5QHkIQXB4isO9gAaazoFIsOkXnQhDBjYYMPyCRL3m_CziYz-kLB8Zbe414ceUBZIeN04r5rXz-PFeZTRROaW7FA4UsGHNelgT_ORhiMBzQ._eG7wCXgBG8zwqFBxLGDOM8j5CKuOPvPRQmKom2FakY&dib_tag=se&keywords=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24V&qid=1759610579&s=industrial&sprefix=push%2Bbutton%2B3%2Bcolor%2Bpack%2B24%2Cindustrial%2C189&sr=1-20&th=1"
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,8 +2499,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 165.1 74.93 0)
+		(property "Manufacturer" "Amazon"
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +2509,7 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
-			(at 165.1 74.93 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +2534,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SP3T")
-		(at 68.58 74.93 0)
+		(at 74.93 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1575,7 +2543,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbd46d59-7832-49b1-8962-1ea33a9b7568")
 		(property "Reference" "Gear1"
-			(at 68.58 66.04 0)
+			(at 74.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +2551,7 @@
 			)
 		)
 		(property "Value" "SW_SP3T"
-			(at 68.58 68.58 0)
+			(at 74.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +2559,7 @@
 			)
 		)
 		(property "Footprint" "nanofits_1x04:CONN_SD-105313-100_04_MOL"
-			(at 52.705 70.485 0)
+			(at 59.055 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 82.55 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +2577,7 @@
 			)
 		)
 		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-			(at 68.58 74.93 0)
+			(at 74.93 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,8 +2585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
-			(at 68.58 74.93 0)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/c-k/A12505RNZQ/2043161"
+			(at 74.93 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,8 +2594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 68.58 74.93 0)
+		(property "Manufacturer" "DigiKey"
+			(at 74.93 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +2604,7 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
-			(at 68.58 74.93 0)
+			(at 74.93 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +2634,7 @@
 		)
 	)
 	(sheet
-		(at 185.42 68.58)
+		(at 191.77 64.77)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1682,7 +2650,7 @@
 		)
 		(uuid "26318188-ff2d-4a71-865e-c31691d676e2")
 		(property "Sheetname" "NMOS Switch7"
-			(at 185.42 67.8684 0)
+			(at 191.77 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +2659,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 185.42 78.6896 0)
+			(at 191.77 74.8796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +2668,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 212.09 74.93 0)
+			(at 218.44 71.12 0)
 			(uuid "ff1ddfa3-b536-4e2d-af1b-024a7fdddde3")
 			(effects
 				(font
@@ -1710,7 +2678,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 185.42 71.12 180)
+			(at 191.77 67.31 180)
 			(uuid "aab018ac-bd67-4643-a559-c69992a18b1e")
 			(effects
 				(font
@@ -1720,7 +2688,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 185.42 74.93 180)
+			(at 191.77 71.12 180)
 			(uuid "b431874e-438f-4f94-857a-9751a7c7356e")
 			(effects
 				(font
@@ -1738,7 +2706,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 134.62)
+		(at 93.98 135.89)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1754,7 +2722,7 @@
 		)
 		(uuid "443790eb-ee47-4dc5-bc74-5a6a17a23ec1")
 		(property "Sheetname" "NMOS Switch5"
-			(at 87.63 133.9084 0)
+			(at 93.98 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +2731,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 87.63 144.7296 0)
+			(at 93.98 145.9996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +2740,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 114.3 140.97 0)
+			(at 120.65 142.24 0)
 			(uuid "1cec7eda-6ce1-4b9a-a252-1d6a6b7f5e7f")
 			(effects
 				(font
@@ -1782,7 +2750,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 87.63 137.16 180)
+			(at 93.98 138.43 180)
 			(uuid "9306c45c-39bf-4ab2-806f-0c5a3b0d5861")
 			(effects
 				(font
@@ -1792,7 +2760,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 87.63 140.97 180)
+			(at 93.98 142.24 180)
 			(uuid "21a0823a-217a-4a47-91b7-fb63f077bd8e")
 			(effects
 				(font
@@ -1810,7 +2778,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 51.435)
+		(at 96.52 46.355)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,7 +2794,7 @@
 		)
 		(uuid "77a34744-6fbb-49b8-909e-8fcf15713845")
 		(property "Sheetname" "NMOS Switch"
-			(at 90.17 50.7234 0)
+			(at 96.52 45.6434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +2803,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 90.17 61.5446 0)
+			(at 96.52 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +2812,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 116.84 57.15 0)
+			(at 123.19 52.07 0)
 			(uuid "285cee87-2569-49cb-a91b-6f6ff526df81")
 			(effects
 				(font
@@ -1854,7 +2822,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 90.17 53.34 180)
+			(at 96.52 48.26 180)
 			(uuid "74157ded-70f1-423c-98e5-85e3bc8c648f")
 			(effects
 				(font
@@ -1864,7 +2832,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 90.17 57.15 180)
+			(at 96.52 52.07 180)
 			(uuid "d53cace2-bee7-4de6-b6f9-24b4d3bdaecc")
 			(effects
 				(font
@@ -1882,7 +2850,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 100.33)
+		(at 93.98 101.6)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +2866,7 @@
 		)
 		(uuid "85141009-cf23-4e15-a00d-fd39334ceaca")
 		(property "Sheetname" "NMOS Switch3"
-			(at 87.63 99.6184 0)
+			(at 93.98 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +2875,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 87.63 110.4396 0)
+			(at 93.98 111.7096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +2884,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 114.3 106.68 0)
+			(at 120.65 107.95 0)
 			(uuid "0b2b8ee7-e9d5-4b53-8e41-efb5c7444cc0")
 			(effects
 				(font
@@ -1926,7 +2894,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 87.63 102.87 180)
+			(at 93.98 104.14 180)
 			(uuid "9bc3f2a2-c1f6-447d-9fdc-5ea58864d214")
 			(effects
 				(font
@@ -1936,7 +2904,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 87.63 106.68 180)
+			(at 93.98 107.95 180)
 			(uuid "104b1f88-ffdf-4b76-9bb2-148915da269c")
 			(effects
 				(font
@@ -1954,7 +2922,7 @@
 		)
 	)
 	(sheet
-		(at 185.42 87.63)
+		(at 191.77 83.82)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1970,7 +2938,7 @@
 		)
 		(uuid "98be5413-28b5-4000-8755-133e101601ee")
 		(property "Sheetname" "NMOS Switch8"
-			(at 185.42 86.9184 0)
+			(at 191.77 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +2947,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 185.42 97.7396 0)
+			(at 191.77 93.9296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +2956,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 212.09 93.98 0)
+			(at 218.44 90.17 0)
 			(uuid "14b390d4-61b9-4208-9945-7c15ad8f5626")
 			(effects
 				(font
@@ -1998,7 +2966,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 185.42 90.17 180)
+			(at 191.77 86.36 180)
 			(uuid "c170f903-22b8-4c16-a9e0-08300d23b54b")
 			(effects
 				(font
@@ -2008,7 +2976,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 185.42 93.98 180)
+			(at 191.77 90.17 180)
 			(uuid "1e67de6c-0c05-4fed-832a-3e26b6eb0735")
 			(effects
 				(font
@@ -2026,7 +2994,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 85.09)
+		(at 96.52 80.01)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2042,7 +3010,7 @@
 		)
 		(uuid "b22cf861-cce0-40f5-af4d-1da4c31e5ea4")
 		(property "Sheetname" "NMOS Switch2"
-			(at 90.17 84.3784 0)
+			(at 96.52 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +3019,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 90.17 95.1996 0)
+			(at 96.52 90.1196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +3028,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 116.84 91.44 0)
+			(at 123.19 86.36 0)
 			(uuid "d4212bca-a761-488f-8113-596913a71a68")
 			(effects
 				(font
@@ -2070,7 +3038,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 90.17 87.63 180)
+			(at 96.52 82.55 180)
 			(uuid "a2a1e877-8950-46cc-ad50-ebf437c80da2")
 			(effects
 				(font
@@ -2080,7 +3048,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 90.17 91.44 180)
+			(at 96.52 86.36 180)
 			(uuid "fb1c109c-8d18-4261-b7bf-41dbaff1b6f0")
 			(effects
 				(font
@@ -2098,7 +3066,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 118.11)
+		(at 93.98 119.38)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2114,7 +3082,7 @@
 		)
 		(uuid "bdc400a7-f171-4dad-be53-5336f07e6d56")
 		(property "Sheetname" "NMOS Switch4"
-			(at 87.63 117.3984 0)
+			(at 93.98 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +3091,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 87.63 128.2196 0)
+			(at 93.98 129.4896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +3100,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 114.3 124.46 0)
+			(at 120.65 125.73 0)
 			(uuid "73d28195-b4b1-42c8-a77a-8213a51365ac")
 			(effects
 				(font
@@ -2142,7 +3110,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 87.63 120.65 180)
+			(at 93.98 121.92 180)
 			(uuid "d929b156-2a87-4814-b22b-a82465c42741")
 			(effects
 				(font
@@ -2152,7 +3120,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 87.63 124.46 180)
+			(at 93.98 125.73 180)
 			(uuid "e34b5998-3149-4b35-8efa-5cc5c153ec35")
 			(effects
 				(font
@@ -2170,7 +3138,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 68.58)
+		(at 96.52 63.5)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2186,7 +3154,7 @@
 		)
 		(uuid "cdc5ad43-02dd-4ee6-86a6-815b5be4fe19")
 		(property "Sheetname" "NMOS Switch1"
-			(at 90.17 67.8684 0)
+			(at 96.52 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +3163,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 90.17 78.6896 0)
+			(at 96.52 73.6096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +3172,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 116.84 74.93 0)
+			(at 123.19 69.85 0)
 			(uuid "344b13e5-6144-4897-b269-7176338d1ca2")
 			(effects
 				(font
@@ -2214,7 +3182,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 90.17 71.12 180)
+			(at 96.52 66.04 180)
 			(uuid "3ff49d63-2b22-4023-b31d-808f0317c21c")
 			(effects
 				(font
@@ -2224,7 +3192,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 90.17 74.93 180)
+			(at 96.52 69.85 180)
 			(uuid "d81c50e7-5587-4173-8faf-5ee295a14e12")
 			(effects
 				(font
@@ -2242,7 +3210,7 @@
 		)
 	)
 	(sheet
-		(at 185.42 105.41)
+		(at 191.77 101.6)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2258,7 +3226,7 @@
 		)
 		(uuid "ec62b0d3-cf22-4395-8f1d-99c970b8fd01")
 		(property "Sheetname" "NMOS Switch9"
-			(at 185.42 104.6984 0)
+			(at 191.77 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +3235,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 185.42 115.5196 0)
+			(at 191.77 111.7096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +3244,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 212.09 111.76 0)
+			(at 218.44 107.95 0)
 			(uuid "02efbac7-7605-427c-8cd9-5e414d8ae491")
 			(effects
 				(font
@@ -2286,7 +3254,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 185.42 107.95 180)
+			(at 191.77 104.14 180)
 			(uuid "e59481f1-af2b-4c7d-a6c9-c2cc128e0a4d")
 			(effects
 				(font
@@ -2296,7 +3264,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 185.42 111.76 180)
+			(at 191.77 107.95 180)
 			(uuid "06f68d36-f767-45f3-b967-83d0d79601cf")
 			(effects
 				(font
@@ -2314,7 +3282,7 @@
 		)
 	)
 	(sheet
-		(at 185.42 52.07)
+		(at 191.77 48.26)
 		(size 26.67 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2330,7 +3298,7 @@
 		)
 		(uuid "f4291017-39e3-45b1-8bc1-fc07428031c8")
 		(property "Sheetname" "NMOS Switch6"
-			(at 185.42 51.3584 0)
+			(at 191.77 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +3307,7 @@
 			)
 		)
 		(property "Sheetfile" "NMOS_SW.kicad_sch"
-			(at 185.42 62.1796 0)
+			(at 191.77 58.3696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +3316,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 212.09 58.42 0)
+			(at 218.44 54.61 0)
 			(uuid "adaf11ca-d324-40dc-a73d-5e2bf5e85b7c")
 			(effects
 				(font
@@ -2358,7 +3326,7 @@
 			)
 		)
 		(pin "3.3V_LSOM" input
-			(at 185.42 54.61 180)
+			(at 191.77 50.8 180)
 			(uuid "8a1d9278-a142-48fb-a655-e5bbd4f57399")
 			(effects
 				(font
@@ -2368,7 +3336,7 @@
 			)
 		)
 		(pin "3.3V_LDO" input
-			(at 185.42 58.42 180)
+			(at 191.77 54.61 180)
 			(uuid "4a960e5d-b9de-42d6-b33b-a78e90b88103")
 			(effects
 				(font

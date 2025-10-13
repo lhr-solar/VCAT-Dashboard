@@ -1337,7 +1337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 93.98 67.31 0)
 			(effects
 				(font
@@ -1346,7 +1346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 93.98 67.31 0)
 			(effects
 				(font
@@ -1355,7 +1355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 93.98 67.31 0)
 			(effects
 				(font
@@ -1606,7 +1606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 205.74 129.54 0)
 			(effects
 				(font
@@ -1615,7 +1615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 205.74 129.54 0)
 			(effects
 				(font
@@ -1624,7 +1624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 205.74 129.54 0)
 			(effects
 				(font
@@ -1904,7 +1904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 114.3 133.35 90)
 			(effects
 				(font
@@ -1913,7 +1913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 114.3 133.35 90)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 114.3 133.35 90)
 			(effects
 				(font
@@ -2010,7 +2010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 135.89 133.35 90)
 			(effects
 				(font
@@ -2019,7 +2019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 135.89 133.35 90)
 			(effects
 				(font
@@ -2028,7 +2028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 135.89 133.35 90)
 			(effects
 				(font
@@ -2115,7 +2115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 123.19 74.93 90)
 			(effects
 				(font
@@ -2124,7 +2124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 123.19 74.93 90)
 			(effects
 				(font
@@ -2133,7 +2133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 123.19 74.93 90)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 74.93 133.35 90)
 			(effects
 				(font
@@ -2327,7 +2327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 74.93 133.35 90)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 74.93 133.35 90)
 			(effects
 				(font
@@ -2684,7 +2684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 93.98 133.35 90)
 			(effects
 				(font
@@ -2693,7 +2693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 93.98 133.35 90)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 93.98 133.35 90)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 138.43 74.93 90)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 138.43 74.93 90)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 138.43 74.93 90)
 			(effects
 				(font
@@ -3193,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 175.26 133.35 90)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 175.26 133.35 90)
 			(effects
 				(font
@@ -3211,7 +3211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 175.26 133.35 90)
 			(effects
 				(font
@@ -3454,8 +3454,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603_SMD"
-			(at 181.864 87.63 0)
+		(property "Value" "Controls_Leader_Status_Red"
+			(at 168.91 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LS-Q976-01-N1Q2-1-20-R18/21556498"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -3508,7 +3508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "DigiKey"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -3517,7 +3517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LS Q976.01-N1Q2-1-20-R18"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 154.94 133.35 90)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 154.94 133.35 90)
 			(effects
 				(font
@@ -4208,7 +4208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 154.94 133.35 90)
 			(effects
 				(font
@@ -4295,7 +4295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -4304,7 +4304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 93.98 90.17 0)
 			(effects
 				(font
@@ -4573,7 +4573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 93.98 90.17 0)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 93.98 90.17 0)
 			(effects
 				(font
@@ -4736,7 +4736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -4745,7 +4745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Digikey"
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Prt #" ""
+		(property "Manufacturer Prt #" "LG Q976.01-MGNI-35-1"
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -5169,15 +5169,6 @@
 			)
 		)
 		(property "P/N" "43650-0300"
-			(at 181.61 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
 			(at 181.61 59.69 0)
 			(effects
 				(font
