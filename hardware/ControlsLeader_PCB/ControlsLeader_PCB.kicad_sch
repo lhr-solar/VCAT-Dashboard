@@ -39058,6 +39058,10 @@
 		(uuid "30458cf2-26f7-4562-b23f-c02744575a83")
 	)
 	(no_connect
+		(at 152.4 39.37)
+		(uuid "75c58eb7-3a50-4aa2-9f07-fd3608764b58")
+	)
+	(no_connect
 		(at 176.53 73.66)
 		(uuid "94421301-f454-4e3e-af57-0438d3bb040e")
 	)
@@ -39328,16 +39332,6 @@
 			(type default)
 		)
 		(uuid "2ad4ba28-7e62-4fde-b0dd-14ae9d316c49")
-	)
-	(wire
-		(pts
-			(xy 259.08 124.46) (xy 262.89 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3040b739-e5f3-47de-8a40-440bb63d29af")
 	)
 	(wire
 		(pts
@@ -43773,16 +43767,6 @@
 			)
 		)
 	)
-	(label "Extra_LED6"
-		(at 262.89 124.46 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "0619df2b-5a7a-4e12-a755-c8910db32764")
-	)
 	(label "Horn_24V_Signal_Out"
 		(at 260.35 90.17 0)
 		(effects
@@ -47349,16 +47333,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "Extra_LED6" input
-			(at 259.08 124.46 0)
-			(uuid "1a2763a9-cd13-49bb-8e6d-a39ca731fcee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "5V_Buck" input
