@@ -630,7 +630,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 54.61) (xy 219.71 54.61)
+			(xy 218.44 50.8) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 219.71 90.17)
+			(xy 218.44 86.36) (xy 219.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 121.92 107.95)
+			(xy 120.65 104.14) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -910,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 124.46 86.36)
+			(xy 123.19 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -930,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 121.92 125.73)
+			(xy 119.38 121.92) (xy 120.65 121.92)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 52.07) (xy 124.46 52.07)
+			(xy 123.19 48.26) (xy 124.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 142.24) (xy 121.92 142.24)
+			(xy 120.65 138.43) (xy 121.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1090,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 107.95) (xy 219.71 107.95)
+			(xy 218.44 104.14) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 124.46 69.85)
+			(xy 123.19 66.04) (xy 124.46 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1301,7 +1301,7 @@
 	)
 	(hierarchical_label "Hazard_GPIO_IN"
 		(shape output)
-		(at 219.71 107.95 0)
+		(at 219.71 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,7 +1367,7 @@
 	)
 	(hierarchical_label "Cruise_Enable_GPIO_IN"
 		(shape output)
-		(at 219.71 54.61 0)
+		(at 219.71 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 	)
 	(hierarchical_label "Neuatral_Gear_GPIO"
 		(shape output)
-		(at 124.46 69.85 0)
+		(at 124.46 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1433,7 +1433,7 @@
 	)
 	(hierarchical_label "IGN_ARR"
 		(shape output)
-		(at 121.92 125.73 0)
+		(at 120.65 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,7 +1455,7 @@
 	)
 	(hierarchical_label "REV_SW"
 		(shape output)
-		(at 124.46 86.36 0)
+		(at 124.46 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1466,7 +1466,7 @@
 	)
 	(hierarchical_label "Ign_OFF_GPIO"
 		(shape output)
-		(at 121.92 107.95 0)
+		(at 121.92 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1477,7 +1477,7 @@
 	)
 	(hierarchical_label "FWD_SW"
 		(shape output)
-		(at 124.46 52.07 0)
+		(at 124.46 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1499,7 +1499,7 @@
 	)
 	(hierarchical_label "Regen_Enable_GPIO_IN"
 		(shape output)
-		(at 219.71 90.17 0)
+		(at 219.71 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1532,7 +1532,7 @@
 	)
 	(hierarchical_label "IGN_MTR"
 		(shape output)
-		(at 121.92 142.24 0)
+		(at 121.92 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1580,8 +1580,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "50f918d4-cdb0-4c58-8cab-a296cf8e9741")
 		(property "Reference" "J12"
 			(at 214.63 139.7001 0)
@@ -1771,8 +1771,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "624c3a23-75cc-4c27-99c4-2abc07a95c9a")
 		(property "Reference" "J11"
 			(at 193.548 136.906 0)
@@ -2061,8 +2061,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe8ca3d-dbc7-4e6e-a11e-069ed7f7a84e")
 		(property "Reference" "J9"
@@ -2158,8 +2158,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5275fc1-15d7-40f4-ba8c-e81cc189f418")
 		(property "Reference" "J13"
@@ -2255,8 +2255,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b8fa27a8-f47a-4605-884c-8e7ff147b452")
 		(property "Reference" "J14"
 			(at 232.664 136.906 0)
@@ -2740,7 +2740,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 120.65 142.24 0)
+			(at 120.65 138.43 0)
 			(uuid "1cec7eda-6ce1-4b9a-a252-1d6a6b7f5e7f")
 			(effects
 				(font
@@ -2759,9 +2759,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 93.98 142.24 180)
-			(uuid "21a0823a-217a-4a47-91b7-fb63f077bd8e")
+			(uuid "7f0c0e34-8f27-473c-8303-178c5533aeb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2812,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 123.19 52.07 0)
+			(at 123.19 48.26 0)
 			(uuid "285cee87-2569-49cb-a91b-6f6ff526df81")
 			(effects
 				(font
@@ -2831,9 +2831,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 96.52 52.07 180)
-			(uuid "d53cace2-bee7-4de6-b6f9-24b4d3bdaecc")
+			(uuid "dfd78906-5e63-4e2c-b1a6-1ffb8fde2191")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 120.65 107.95 0)
+			(at 120.65 104.14 0)
 			(uuid "0b2b8ee7-e9d5-4b53-8e41-efb5c7444cc0")
 			(effects
 				(font
@@ -2903,9 +2903,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 93.98 107.95 180)
-			(uuid "104b1f88-ffdf-4b76-9bb2-148915da269c")
+			(uuid "62edf061-03d0-4050-87dd-5155c1576f62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2956,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 218.44 90.17 0)
+			(at 218.44 86.36 0)
 			(uuid "14b390d4-61b9-4208-9945-7c15ad8f5626")
 			(effects
 				(font
@@ -2975,9 +2975,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 191.77 90.17 180)
-			(uuid "1e67de6c-0c05-4fed-832a-3e26b6eb0735")
+			(uuid "700ddac6-ec9f-4b57-89ea-0640b7b08c9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3028,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 123.19 86.36 0)
+			(at 123.19 82.55 0)
 			(uuid "d4212bca-a761-488f-8113-596913a71a68")
 			(effects
 				(font
@@ -3047,9 +3047,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 96.52 86.36 180)
-			(uuid "fb1c109c-8d18-4261-b7bf-41dbaff1b6f0")
+			(uuid "7f5b8799-8f8b-4b8d-8e6e-cec96e0039f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3100,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 120.65 125.73 0)
+			(at 120.65 121.92 0)
 			(uuid "73d28195-b4b1-42c8-a77a-8213a51365ac")
 			(effects
 				(font
@@ -3119,9 +3119,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 93.98 125.73 180)
-			(uuid "e34b5998-3149-4b35-8efa-5cc5c153ec35")
+			(uuid "aa0e43c8-00c9-403b-b007-14e112e2b525")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3172,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 123.19 69.85 0)
+			(at 123.19 66.04 0)
 			(uuid "344b13e5-6144-4897-b269-7176338d1ca2")
 			(effects
 				(font
@@ -3191,9 +3191,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 96.52 69.85 180)
-			(uuid "d81c50e7-5587-4173-8faf-5ee295a14e12")
+			(uuid "4945504d-e5da-4ded-937e-f258c164b67c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3244,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 218.44 107.95 0)
+			(at 218.44 104.14 0)
 			(uuid "02efbac7-7605-427c-8cd9-5e414d8ae491")
 			(effects
 				(font
@@ -3263,9 +3263,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 191.77 107.95 180)
-			(uuid "06f68d36-f767-45f3-b967-83d0d79601cf")
+			(uuid "0c95327a-697b-48dc-b3b0-472014712916")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 218.44 54.61 0)
+			(at 218.44 50.8 0)
 			(uuid "adaf11ca-d324-40dc-a73d-5e2bf5e85b7c")
 			(effects
 				(font
@@ -3335,9 +3335,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 191.77 54.61 180)
-			(uuid "4a960e5d-b9de-42d6-b33b-a78e90b88103")
+			(uuid "3bf6d567-04de-44f3-8190-fa85fe520f95")
 			(effects
 				(font
 					(size 1.27 1.27)

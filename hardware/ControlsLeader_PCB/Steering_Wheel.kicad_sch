@@ -1076,6 +1076,16 @@
 		)
 		(uuid "9daa5955-e0c0-4b74-aff6-c480995f280c")
 	)
+	(text "Change horn label\n"
+		(exclude_from_sim no)
+		(at 115.062 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0ee7e38-95e1-4bd8-b5bb-e56c4c123200")
+	)
 	(junction
 		(at 177.8 58.42)
 		(diameter 0)
@@ -1114,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 133.35) (xy 127 133.35)
+			(xy 125.73 129.54) (xy 127 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 154.94) (xy 127 154.94)
+			(xy 125.73 151.13) (xy 127 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 132.08 100.33)
+			(xy 130.81 96.52) (xy 132.08 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 132.08 58.42)
+			(xy 130.81 54.61) (xy 132.08 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1380,7 @@
 	)
 	(hierarchical_label "Horn_GPIO_IN"
 		(shape output)
-		(at 132.08 58.42 0)
+		(at 132.08 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1381,7 +1391,7 @@
 	)
 	(hierarchical_label "Regen_Active_GPIO_IN"
 		(shape output)
-		(at 132.08 100.33 0)
+		(at 132.08 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,7 +1424,7 @@
 	)
 	(hierarchical_label "Right_Blinker_ON"
 		(shape output)
-		(at 127 133.35 0)
+		(at 127 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1436,7 +1446,7 @@
 	)
 	(hierarchical_label "Left_Blinker_ON"
 		(shape output)
-		(at 127 154.94 0)
+		(at 127 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,7 +2222,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 125.73 133.35 0)
+			(at 125.73 129.54 0)
 			(uuid "966a3700-daaa-4029-ae61-1951ef9707d0")
 			(effects
 				(font
@@ -2231,9 +2241,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 99.06 133.35 180)
-			(uuid "e8fb5c0d-e8eb-45e6-95ab-365e67752aa9")
+			(uuid "87861386-0774-4960-98a5-d8f0dc2cd758")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2294,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 130.81 58.42 0)
+			(at 130.81 54.61 0)
 			(uuid "dbc8745d-bd5b-4818-ba8a-e1c0df053a05")
 			(effects
 				(font
@@ -2303,9 +2313,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 104.14 58.42 180)
-			(uuid "6c3a650a-658a-4de0-b8de-bebc9f191376")
+			(uuid "027efb23-806e-4820-95ef-c288816c9a2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2366,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 125.73 154.94 0)
+			(at 125.73 151.13 0)
 			(uuid "54520750-a548-4abc-9ac9-4cbb0b4c335f")
 			(effects
 				(font
@@ -2375,9 +2385,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 99.06 154.94 180)
-			(uuid "f4c5b43d-4f22-48cb-8c4b-66facd2c181a")
+			(uuid "3cd7da2a-6a9c-4f77-944c-2dd52362fc9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2438,7 @@
 			)
 		)
 		(pin "GPIO_Signal" output
-			(at 130.81 100.33 0)
+			(at 130.81 96.52 0)
 			(uuid "df863461-4e9a-40d0-8dea-ce965d59c7d5")
 			(effects
 				(font
@@ -2447,9 +2457,9 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V_LDO" input
+		(pin "3.3V_LDO_Switch" input
 			(at 104.14 100.33 180)
-			(uuid "daea3a85-579c-43c0-b9e4-6f2950251015")
+			(uuid "3d9a144a-b896-4943-b86a-387c6e0c5e05")
 			(effects
 				(font
 					(size 1.27 1.27)
