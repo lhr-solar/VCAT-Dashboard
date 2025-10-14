@@ -566,7 +566,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -645,8 +645,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Manufacturer Prt #"
+      "sort_asc": true,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

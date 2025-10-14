@@ -5,6 +5,148 @@
 	(uuid "298dad81-302c-41c7-874b-fcde1c3cde17")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -38846,8 +38988,8 @@
 		)
 	)
 	(rectangle
-		(start 176.53 138.43)
-		(end 216.154 160.02)
+		(start 176.53 134.62)
+		(end 216.154 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -38931,7 +39073,7 @@
 	)
 	(text "Steering Connector"
 		(exclude_from_sim no)
-		(at 189.738 135.89 0)
+		(at 189.738 132.08 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -39048,6 +39190,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f168fa-f2f3-4092-898c-0b7e67f66508")
+	)
+	(no_connect
+		(at 194.31 162.56)
+		(uuid "0dd1c8a0-37d3-4368-8976-f2acfb636233")
 	)
 	(no_connect
 		(at 139.7 41.91)
@@ -39195,7 +39341,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 152.4) (xy 195.58 152.4)
+			(xy 196.85 148.59) (xy 195.58 148.59)
 		)
 		(stroke
 			(width 0)
@@ -39345,7 +39491,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 154.94) (xy 195.58 154.94)
+			(xy 198.12 151.13) (xy 195.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -39435,7 +39581,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 149.86) (xy 195.58 149.86)
+			(xy 196.85 146.05) (xy 195.58 146.05)
 		)
 		(stroke
 			(width 0)
@@ -39445,7 +39591,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 147.32) (xy 195.58 147.32)
+			(xy 196.85 143.51) (xy 195.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -40075,7 +40221,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 144.78) (xy 196.85 144.78)
+			(xy 195.58 140.97) (xy 196.85 140.97)
 		)
 		(stroke
 			(width 0)
@@ -40285,7 +40431,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 163.83) (xy 191.77 163.83)
+			(xy 193.04 160.02) (xy 194.31 160.02)
 		)
 		(stroke
 			(width 0)
@@ -44218,7 +44364,7 @@
 		(uuid "7e1d892b-2bd6-4c12-b7f5-14ca469cd616")
 	)
 	(label "3.3V_LDO"
-		(at 198.12 154.94 0)
+		(at 198.12 151.13 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -44298,7 +44444,7 @@
 		(uuid "9cffb33f-1e86-42e2-88a9-0a68ca099cb4")
 	)
 	(label "Right_Blinker_ON"
-		(at 196.85 149.86 0)
+		(at 196.85 146.05 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -44428,7 +44574,7 @@
 		(uuid "b91a0147-a6ce-495e-a8d4-f081db3c7d5b")
 	)
 	(label "Horn_GPIO_IN"
-		(at 196.85 147.32 0)
+		(at 196.85 143.51 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -44448,7 +44594,7 @@
 		(uuid "bc026275-9cdf-449b-90bc-6ae006d2c5fe")
 	)
 	(label "Regen_Active_GPIO_IN"
-		(at 196.85 144.78 0)
+		(at 196.85 140.97 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -44608,7 +44754,7 @@
 		(uuid "e0dbecd3-ce1b-4961-b170-785e8300089b")
 	)
 	(label "Left_Blinker_ON"
-		(at 196.85 152.4 0)
+		(at 196.85 148.59 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -44638,7 +44784,7 @@
 		(uuid "e9a0c34e-7a74-4941-8ad8-de6b3fb83897")
 	)
 	(label "Horn_24V_Signal_Out"
-		(at 190.5 163.83 180)
+		(at 193.04 160.02 180)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -44870,6 +45016,76 @@
 			(project "ControlsLeader_PCB"
 				(path "/298dad81-302c-41c7-874b-fcde1c3cde17"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 199.39 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ce1e14e-737f-4e05-a2d6-e67eda403db3")
+		(property "Reference" "J17"
+			(at 201.93 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 201.93 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f3751bd-8c44-4641-8c39-2837cbf4c175")
+		)
+		(pin "2"
+			(uuid "740a203a-e96c-4cb6-b3f1-fc44abb7f02d")
+		)
+		(instances
+			(project ""
+				(path "/298dad81-302c-41c7-874b-fcde1c3cde17"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -46848,7 +47064,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 190.5 149.86 180)
+		(at 190.5 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46856,7 +47072,7 @@
 		(dnp no)
 		(uuid "e7e68c81-e605-4df1-81da-94337e6e93b3")
 		(property "Reference" "J16"
-			(at 187.96 150.114 0)
+			(at 187.96 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46865,7 +47081,7 @@
 			)
 		)
 		(property "Value" "SteeringConn_01x05"
-			(at 213.36 157.988 0)
+			(at 213.36 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46874,7 +47090,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx05_1x05_P2.50mm_Horizontal"
-			(at 190.5 149.86 0)
+			(at 190.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46883,7 +47099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 149.86 0)
+			(at 190.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46892,7 +47108,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 149.86 0)
+			(at 190.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
