@@ -1803,6 +1803,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c21846e-f0ab-4e16-97d6-ac51ba4e4d03")
 		)
