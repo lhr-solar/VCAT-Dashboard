@@ -1543,7 +1543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "NMOS cap c13"
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 114.3 90)
 			(effects
 				(font
@@ -1710,7 +1710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "NMOS 150Ohms"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -1738,6 +1738,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ERJ-P03F1500V"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -1977,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "NMOS!"
 			(at 139.7 100.33 0)
 			(effects
 				(font
@@ -2032,6 +2041,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IRLML2030TRPBF"
 			(at 139.7 100.33 0)
 			(effects
 				(font
@@ -2137,7 +2155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 128.778 105.41 90)
 			(effects
 				(font
@@ -2155,7 +2173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "NOMS 10k"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -2164,7 +2182,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKTAHP"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -2322,7 +2340,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -2440,7 +2467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "NMOS LEDs"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -2477,6 +2504,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" "LB Q99G.01-P1R1-35-1-5-R18"
+			(at 133.35 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LB Q99G.01-P1R1-35-1-5-R18"
 			(at 133.35 104.14 90)
 			(effects
 				(font
@@ -2580,7 +2616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 88.9 90)
 			(effects
 				(font
@@ -2598,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "NMOS 100k"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -2626,6 +2662,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603100KFKTAHP"
 			(at 142.24 88.9 0)
 			(effects
 				(font

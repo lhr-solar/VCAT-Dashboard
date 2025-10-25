@@ -2095,7 +2095,7 @@
 		(at 242.57 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2134,7 +2134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 242.57 95.25 0)
 			(effects
 				(font
@@ -2162,6 +2162,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 242.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 242.57 95.25 0)
 			(effects
 				(font
@@ -2228,7 +2237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "EStop_2pin"
 			(at 162.56 140.97 0)
 			(effects
 				(font
@@ -2246,7 +2255,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0215"
+		(property "P/N" "1053131102"
 			(at 162.56 140.97 0)
 			(effects
 				(font
@@ -2284,7 +2293,7 @@
 		(at 241.3 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2323,7 +2332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+		(property "Description" ""
 			(at 241.3 72.39 0)
 			(effects
 				(font
@@ -2359,6 +2368,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "~"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6f2b556-ad99-468f-8141-dedf83b35d8e")
 		)
@@ -2385,7 +2403,7 @@
 		(at 242.57 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2424,7 +2442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 242.57 130.81 0)
 			(effects
 				(font
@@ -2452,6 +2470,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 242.57 130.81 0)
 			(effects
 				(font
@@ -2521,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Supp IN"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -2539,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0215"
+		(property "P/N" "1053131102"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -2615,7 +2642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Supp OUT"
 			(at 133.35 148.59 0)
 			(effects
 				(font
@@ -2633,7 +2660,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0215"
+		(property "P/N" "1053131102"
 			(at 133.35 148.59 0)
 			(effects
 				(font
@@ -2712,7 +2739,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "EStop_4pin"
+			(at 195.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053131104"
 			(at 195.58 137.16 0)
 			(effects
 				(font
@@ -2747,7 +2783,7 @@
 		(at 242.57 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2786,7 +2822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -2822,6 +2858,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "~"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "476f3ed8-4b13-4d02-8ab8-5dd56a2416b3")
 		)
@@ -2842,7 +2887,7 @@
 		(at 242.57 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "fa83e62c-b3f3-4752-b196-515b1e2455f8")
@@ -2880,7 +2925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 242.57 111.76 0)
 			(effects
 				(font
@@ -2916,6 +2961,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "~"
+			(at 242.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f6b08ea-f4be-4fb0-8595-d2392e3b5d4c")
 		)
@@ -2936,7 +2990,7 @@
 		(at 241.3 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2975,7 +3029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+		(property "Description" ""
 			(at 241.3 54.61 0)
 			(effects
 				(font
@@ -3003,6 +3057,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 241.3 54.61 0)
 			(effects
 				(font

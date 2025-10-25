@@ -542,19 +542,19 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -578,7 +578,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -620,7 +620,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -638,13 +638,13 @@
           "group_by": false,
           "label": "Manufacturer Prt #",
           "name": "Manufacturer Prt #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Distributor Link",
           "name": "Distributor Link",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

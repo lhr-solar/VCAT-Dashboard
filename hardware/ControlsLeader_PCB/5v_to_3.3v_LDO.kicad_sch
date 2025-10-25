@@ -705,7 +705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LDO cap c35"
 			(at 120.65 102.87 0)
 			(effects
 				(font
@@ -781,8 +781,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
+			(at 156.21 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LDO cap c35"
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -990,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+		(property "Description" "LDO"
 			(at 140.97 99.06 0)
 			(effects
 				(font

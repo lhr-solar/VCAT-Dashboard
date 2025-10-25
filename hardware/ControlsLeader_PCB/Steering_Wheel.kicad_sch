@@ -1749,7 +1749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 186.182 59.69 90)
 			(effects
 				(font
@@ -1767,7 +1767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "NOMS 10k"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -1803,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKTAHP"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -1832,7 +1832,7 @@
 		(at 200.66 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "6d9778b2-d3b7-4a3b-a76d-5e06cbf5b801")
@@ -1872,7 +1872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -1890,7 +1890,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0300"
+		(property "P/N" "~"
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "NMOS!"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -2045,6 +2045,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IRLML2030TRPBF"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -2114,8 +2123,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fuse_3.3LDO"
 			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "3568"
+			(at 205.74 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2161,7 @@
 		(at 205.74 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2182,7 +2200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 205.74 123.19 0)
 			(effects
 				(font
@@ -2218,6 +2236,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "~"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "300ec8eb-eb27-4f49-9711-97a41417e570")
 		)
@@ -2238,7 +2265,7 @@
 		(at 205.74 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2277,7 +2304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 205.74 105.41 0)
 			(effects
 				(font
@@ -2305,6 +2332,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 205.74 105.41 0)
 			(effects
 				(font

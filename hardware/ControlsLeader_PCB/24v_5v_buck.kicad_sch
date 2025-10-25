@@ -9219,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LDO cap c35"
 			(at 217.17 104.14 0)
 			(effects
 				(font
@@ -9298,7 +9298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V"
+		(property "Description" "Buck"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Buck_Inductor"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -9546,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Buck_Cap_C16"
 			(at 107.95 92.71 0)
 			(effects
 				(font
@@ -9624,7 +9624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Buck_Cap_C17"
 			(at 110.49 102.87 0)
 			(effects
 				(font
@@ -9703,7 +9703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Buck_Diode_D4"
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -9781,7 +9781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Buck_Cap_C31"
 			(at 176.53 92.71 0)
 			(effects
 				(font
@@ -9991,7 +9991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LDO cap c35"
 			(at 205.74 104.14 0)
 			(effects
 				(font
@@ -10069,7 +10069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Buck_Resistor_R86"
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -10147,7 +10147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LDO cap c35"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -10356,7 +10356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Buck_Cap_C18"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -10434,7 +10434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LDO cap c35"
 			(at 194.31 104.14 0)
 			(effects
 				(font
@@ -10512,7 +10512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -10521,7 +10521,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "~"
 			(at 134.62 124.46 0)
 			(effects
 				(font

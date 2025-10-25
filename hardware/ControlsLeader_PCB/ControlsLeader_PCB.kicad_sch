@@ -28196,7 +28196,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 07 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PWR"
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053141106"
 			(at 93.98 39.37 0)
 			(effects
 				(font
@@ -28279,7 +28288,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 13 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Dash Conn"
+			(at 165.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053141112"
 			(at 165.1 39.37 0)
 			(effects
 				(font
@@ -28382,7 +28400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "3.3LDO LED"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -28419,6 +28437,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" "LS Q976.01-N1Q2-1-20-R18"
+			(at 267.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LS Q976.01-N1Q2-1-20-R18"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -28487,7 +28514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+		(property "Description" "Horn_Conn_Flyback"
 			(at 198.12 173.99 0)
 			(effects
 				(font
@@ -28507,6 +28534,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 198.12 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28575,7 +28611,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Horn Conn"
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053131102"
 			(at 207.01 172.72 0)
 			(effects
 				(font
@@ -28710,7 +28755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connection to the car's Peripheral CAN bus."
+		(property "Description" "PH Can In"
 			(at 146.05 168.91 0)
 			(effects
 				(font
@@ -28719,7 +28764,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "105309-1204 "
+		(property "P/N" "1053131104"
 			(at 146.05 168.91 0)
 			(effects
 				(font
@@ -29019,8 +29064,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fuse_3.3LDO"
 			(at 261.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "3568"
+			(at 261.62 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29088,7 +29142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 57.15 176.53 0)
 			(effects
 				(font
@@ -29116,6 +29170,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 57.15 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 57.15 176.53 0)
 			(effects
 				(font
@@ -29312,7 +29375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 57.15 191.77 0)
 			(effects
 				(font
@@ -29340,6 +29403,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 57.15 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 57.15 191.77 0)
 			(effects
 				(font
@@ -29384,7 +29456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 273.05 152.908 90)
 			(effects
 				(font
@@ -29402,7 +29474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Controls R47"
 			(at 273.05 151.13 0)
 			(effects
 				(font
@@ -29430,6 +29502,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 273.05 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW12101K10FKEAHP"
 			(at 273.05 151.13 90)
 			(effects
 				(font
@@ -29480,7 +29561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 273.05 140.208 90)
 			(effects
 				(font
@@ -29498,7 +29579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Controls R47"
 			(at 273.05 138.43 0)
 			(effects
 				(font
@@ -29526,6 +29607,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 273.05 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW12101K10FKEAHP"
 			(at 273.05 138.43 90)
 			(effects
 				(font
@@ -29593,7 +29683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector"
+		(property "Description" "Car Can Out"
 			(at 142.24 151.13 0)
 			(effects
 				(font
@@ -29602,7 +29692,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "1053091102"
+		(property "P/N" "1053131102"
 			(at 142.24 151.13 0)
 			(effects
 				(font
@@ -29767,7 +29857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 25.4 191.77 0)
 			(effects
 				(font
@@ -29795,6 +29885,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 25.4 191.77 0)
 			(effects
 				(font
@@ -29855,8 +29954,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Ign Conn"
 			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053131104"
+			(at 137.16 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29995,7 +30103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector"
+		(property "Description" "Car Can In"
 			(at 142.24 142.24 0)
 			(effects
 				(font
@@ -30004,7 +30112,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "1053091102"
+		(property "P/N" "1053131102"
 			(at 142.24 142.24 0)
 			(effects
 				(font
@@ -30101,7 +30209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "5LDO LED"
 			(at 266.7 142.24 0)
 			(effects
 				(font
@@ -30138,6 +30246,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" "LS Q976.01-N1Q2-1-20-R18"
+			(at 266.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LS Q976.01-N1Q2-1-20-R18"
 			(at 266.7 142.24 0)
 			(effects
 				(font
@@ -30275,7 +30392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 25.4 176.53 0)
 			(effects
 				(font
@@ -30303,6 +30420,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 25.4 176.53 0)
 			(effects
 				(font
@@ -30363,7 +30489,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Steering Conn"
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1053131107"
 			(at 187.96 147.32 0)
 			(effects
 				(font
@@ -30474,7 +30609,7 @@
 		(at 153.67 90.17 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -30514,7 +30649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
+		(property "Description" ""
 			(at 153.924 81.28 0)
 			(effects
 				(font
@@ -30542,6 +30677,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -30758,7 +30902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connection to the car's Peripheral CAN bus."
+		(property "Description" "PH Can Out"
 			(at 147.32 184.15 0)
 			(effects
 				(font
@@ -30767,7 +30911,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "105309-1204 "
+		(property "P/N" "1053131104"
 			(at 147.32 184.15 0)
 			(effects
 				(font
@@ -30829,7 +30973,7 @@
 		(at 99.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -30868,7 +31012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
+		(property "Description" ""
 			(at 99.314 81.28 0)
 			(effects
 				(font
@@ -30896,6 +31040,15 @@
 			)
 		)
 		(property "Manufacturer Prt #" ""
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "~"
 			(at 99.06 90.17 0)
 			(effects
 				(font
